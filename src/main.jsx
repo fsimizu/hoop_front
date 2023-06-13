@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import { AboutUs } from './routes/aboutUs.jsx';
-import { JoinUs } from './routes/joinUs.jsx';
+import { Volunteer } from './routes/volunteer.jsx';
 import { OurWork } from './routes/ourWork.jsx';
 import { Root } from './routes/root.jsx';
 
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
     element: <OurWork />
   },
   {
-    path: "/join-us",
-    element: <JoinUs />
+    path: "/volunteer",
+    element: <Volunteer />
   }
 ])
 

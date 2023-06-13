@@ -4,6 +4,6 @@ import './container.css';
 export function Container() {
     return (
         <nav>
-            <div>Container</div>
+            <div class="containter">Container</div>
         </nav>
 )}

@@ -1,14 +1,14 @@
 import React from "react";
 import { Container } from "../components/Container";
 import { Footer } from "../components/Footer";
-import { Navbar } from "../components/navbar";
+import { Navbar } from "../components/Navbar";
 
-export function JoinUs() {
+export function Volunteer() {
 
   return (
     <div>
       <Navbar />
-      <h1>Join us</h1>
+      <h1>Volunteer</h1>
       <Container />
       <Footer />
     </div>
