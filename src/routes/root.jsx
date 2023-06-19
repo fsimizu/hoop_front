@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "../components/Container";
-import { Footer } from "../components/Footer";
-import { Navbar } from "../components/Navbar";
 import { AboutUs } from "../components/AboutUs";
-import { OurWork } from "../components/OurWork";
+import { Footer } from "../components/Footer";
+import { Hero } from "../components/Hero";
 import { Partners } from "../components/HoopPartners";
+import { Navbar } from "../components/Navbar";
+import { OurWork } from "../components/OurWork";
 
 
 export function Root() {
@@ -12,12 +12,10 @@ export function Root() {
   return (
     <div>
       <Navbar />
-      <h1>HOOP ONG</h1>
+      <Hero />
       <AboutUs />
       <OurWork />
       <Partners />
-      <Container />
-
       <Footer />
     </div>
   );

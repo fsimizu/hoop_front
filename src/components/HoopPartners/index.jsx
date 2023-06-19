@@ -3,7 +3,7 @@ import './partners.css';
 
 export function Partners() {
     return (
-        <div>
+        <div class="container">
             <h4>HOOP PARTNERS</h4>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
