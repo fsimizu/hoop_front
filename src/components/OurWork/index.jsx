@@ -3,7 +3,7 @@ import './ourWork.css';
 
 export function OurWork() {
     return (
-        <div>
+        <div class="container">
             <h4>OUR WORK</h4>
             <div class="ourWork__cards">
                 <div class="card">
