@@ -6,4 +6,12 @@
 }
 .ourWork__cards {
     display: flex;
+    gap: 50px
+}
+.ourWork__readMore {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+
 }
