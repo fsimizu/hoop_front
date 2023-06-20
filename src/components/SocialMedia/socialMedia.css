@@ -1,0 +1,25 @@
+.social-media__container {
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    background-color: #FABA16;
+    height: 180px;
+    width: 50px;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fab {
+    color: #FABA16;
+}
+.icon__background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

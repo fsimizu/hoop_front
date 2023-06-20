@@ -1,0 +1,16 @@
+.footer__container {
+    background-color: #1C3855;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.footer__column-container {
+    padding: 50px;
+}
+#footer__image {
+    height: 65px;
+    margin-bottom: 15px;
+}
+.footer__header {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
