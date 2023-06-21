@@ -1,0 +1,12 @@
+.OurVision__item-container {
+    display: flex;
+}
+.OurVision__icon {
+    display: inline-block;
+    /* background-color: grey; */
+    /* padding: 20px; */
+    /* border-radius: 50%; */
+}
+.OurVision__text {
+    display: inline-block;
+}

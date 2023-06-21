@@ -7,6 +7,7 @@ import { Navbar } from "../components/Navbar";
 import { OurWork } from "../components/OurWork";
 import { Mission } from "../components/Mission";
 import { SocialMedia } from "../components/SocialMedia";
+import { OurVision } from "../components/OurVision";
 
 
 export function Root() {
@@ -17,6 +18,7 @@ export function Root() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <OurVision />
       <Mission />
       <OurWork />
       <Partners />
