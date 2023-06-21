@@ -7,11 +7,11 @@ export function OurVision() {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-12 col-md-6">
-                        <img id="ourVision__image" src="/images/ourvision.png" alt="image about us" />
+                    <div className="col-12 col-lg-6 section__top-margin">
+                        <img id="ourVision__image" src="/images/ourvision.png" alt="image" />
                     </div>
                     
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-lg-6 section__top-margin">
 
                         <div className="ourVision__item-container" >
                             <div className="ourVision__icon">
