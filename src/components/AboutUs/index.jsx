@@ -3,8 +3,8 @@ import './abousUs.css';
 
 export function AboutUs() {
     return (
-        <div class="container">
-            <div class="row">
+        <div class="about">
+            <div class="row ">
                 <div class="col-12 col-md-6">
                     <h2 className="section__header">About us</h2>
                     <img className="section__underline" src="/images/underline.svg" alt="" />

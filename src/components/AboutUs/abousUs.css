@@ -1,9 +1,9 @@
 #aboutUs__image {
     height: 300px;
 }
-h2{
-    text-align:center;
-    padding: 20px;
+.about h2{
+    text-align: center;
+    margin-top: 40px;
 
 }
 
@@ -14,4 +14,13 @@ h2{
 
 .descriptionAbout p{
     margin-top: 1rem;
+    text-align: left;
+}
+
+.about{
+    background-image: url("/public/images/home/backgroundAbout.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0px 50px 50px 50px ;
+    margin-top: 100px;
 }
