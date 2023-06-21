@@ -4,4 +4,14 @@
 h2{
     text-align:center;
     padding: 20px;
-  }
+
+}
+
+.descriptionAbout{
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+}
+
+.descriptionAbout p{
+    margin-top: 1rem;
+}
