@@ -1,12 +1,25 @@
-.OurVision__item-container {
+.ourVision__item-container {
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: flex-start;
+    height: 33%;
 }
-.OurVision__icon {
-    display: inline-block;
-    /* background-color: grey; */
-    /* padding: 20px; */
-    /* border-radius: 50%; */
+
+.ourVision__icon {
+    background-color:rgba(218, 218, 218, 0.3);;
+    border-radius: 50%;
+    padding: 30px;
 }
-.OurVision__text {
+.ourVision__subheader{
+    color: #E61A6B;
+    font-weight: 700;
+    font-size: 32px;
+}
+.ourVision__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(28, 56, 85, 0.8);
     display: inline-block;
+    margin-left: 50px;;
+    line-height: 1.2;
 }

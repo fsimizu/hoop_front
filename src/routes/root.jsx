@@ -4,10 +4,9 @@ import { Footer } from "../components/Footer";
 import { Hero } from "../components/Hero";
 import { Partners } from "../components/HoopPartners";
 import { Navbar } from "../components/Navbar";
-import { OurWork } from "../components/OurWork";
-import { Mission } from "../components/Mission";
-import { SocialMedia } from "../components/SocialMedia";
 import { OurVision } from "../components/OurVision";
+import { OurWork } from "../components/OurWork";
+import { SocialMedia } from "../components/SocialMedia";
 
 
 export function Root() {
@@ -19,7 +18,6 @@ export function Root() {
       <Hero />
       <AboutUs />
       <OurVision />
-      <Mission />
       <OurWork />
       <Partners />
       <Footer />
