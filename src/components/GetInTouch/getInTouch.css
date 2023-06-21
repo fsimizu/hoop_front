@@ -21,6 +21,9 @@ h2{
 
 }
 .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     background-image: url('/public/images/home/circleForm.png');
     background-repeat: no-repeat;
@@ -29,11 +32,6 @@ h2{
     padding: 20px;
 
   }
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .map{
     display: flex;
     justify-content: center;
@@ -46,7 +44,7 @@ h2{
     position: absolute;
     top: -75px; 
     bottom: -20px; 
-    left: 260px;
+    left: 200px;
     width: 400px; 
     height: 725px;
     background-image: url('/public/images/home/backgroundMap.png');
