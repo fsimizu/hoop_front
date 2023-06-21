@@ -1,3 +1,4 @@
+/* HOME */
 #aboutUs__image {
     height: 300px;
 }
@@ -23,4 +24,10 @@
     background-position: center;
     padding: 0px 50px 50px 50px ;
     margin-top: 100px;
+}
+
+
+/* ROUTE ABOUT US */
+.icon-title{
+    display: flex;
 }

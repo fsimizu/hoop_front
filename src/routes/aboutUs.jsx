@@ -9,20 +9,39 @@ export function AboutUs() {
   return (
     <div>
       <Navbar />
-      {/* <div className="hero__container p-5 bg-image">
+      <div className="heroaboutUs p-5 bg-image">
             <div className="container">
-                <div className="d-flex justify-content-end h-100" style={{}} >
-                        <div className="text-right text-white col-lg-4">
-                            <h4 className="mb-3 hero__we-are">We are</h4>
-                            <img src="/images/hero_logo.png" alt="" />
-                            <p className="mb-3">Helping Overcome Obstacles Peru</p>
-                            <h4 className="mb-3 hero__text">An NGO working with communities in the <span class="hero__yellow-text">cono norte of Arequipa Peru.</span></h4>
+                <div className="d-flex justify-content-end h-100">
+                        <div className="heroAboutUsText">
+                          <h4>Our Story</h4>
+                          <p><strong>Our work began</strong> in the <strong>Flora Tristán English School in 2008</strong>. Wishing to have a <strong>larger impact in the community</strong>, a group that included school staff and volunteers established HOOP as a registered Peruvian non-profit organization in 2012. Our five co-founders shared a vision for the organization that would help ensure its work in the community would be meaningful, ethical and long-lasting.HOOP has continued to grow ever since. <br />                                               As well as our programs, workshops and assessment for the development of our participants.</p>
                         </div>
                 </div>
             </div>
+        </div>
+<div className="container">
+  <div  class="col-6 col-md-12">
+    <div className="icon-title">
+    <img src="/images/vision_icon1.svg" alt="" />
+  <h2>Our mision</h2>
+  </div>
+<div>
+  <p> <strong>To  promote the comprehensive development of individuals and their families through education.</strong> 
+We understand education as the promotion of knowledge through workshops, the development of skills and academic complementarity to improve people’s abilities.</p>
+    </div>
+  </div>
 
-            
-        </div> */}
+  <div class="col-6 col-md-12">
+    <div  className="icon-title">
+       <img src="/images/vision_icon2.svg" alt="" />
+  <h2>Our vision</h2>
+    </div>
+ <p>
+ <strong>Families transforming communities.</strong> <br />
+Our goal is to provide people with the necessary tools for them to become the change agents within their own community and generate their own development.
+ </p>
+    </div>
+</div>
       <Container />
       <Footer />
     </div>
