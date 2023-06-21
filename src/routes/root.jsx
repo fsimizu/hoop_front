@@ -7,6 +7,7 @@ import { Navbar } from "../components/Navbar";
 import { OurVision } from "../components/OurVision";
 import { OurWork } from "../components/OurWork";
 import { SocialMedia } from "../components/SocialMedia";
+import { OurResults } from "../components/OurResults";
 
 
 export function Root() {
@@ -19,6 +20,7 @@ export function Root() {
       <AboutUs />
       <OurVision />
       <OurWork />
+      <OurResults />
       <Partners />
       <Footer />
     </div>

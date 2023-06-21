@@ -1,10 +1,15 @@
+.section__top-margin {
+    margin: 40px 0px;
+}
 .ourVision__item-container {
     display: flex;
     font-family: 'Roboto', sans-serif;
     align-items: flex-start;
-    height: 33%;
 }
 
+#ourVision__image {
+    width: 100%;
+}
 .ourVision__icon {
     background-color:rgba(218, 218, 218, 0.3);;
     border-radius: 50%;
@@ -18,7 +23,6 @@
 .ourVision__text {
     font-weight: 400;
     font-size: 18px;
-    color: rgba(28, 56, 85, 0.8);
     display: inline-block;
     margin-left: 50px;;
     line-height: 1.2;

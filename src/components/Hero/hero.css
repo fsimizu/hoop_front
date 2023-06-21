@@ -1,7 +1,6 @@
 .hero__container {
-    background-image: 
-    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 78, 112, 0.7)),
-    url('/images/hero_image.png');
+    background-image: linear-gradient(-90deg, rgba(0, 108, 154, 0.69) 14.86%, rgba(0, 108, 154, 0.38) 30.63%, rgba(158, 231, 222, 0) 50%),url('/images/hero_image.png');
+    background-blend-mode: multiply;
     height: 497px;
     background-size: cover;
     background-position: left top;

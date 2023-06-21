@@ -64,9 +64,7 @@ export function Navbar() {
                                     <li className="nav-item">
                                         <a className="nav-link" href="./blog">Blog</a>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="./get-involved">Get involved</a>
-                                    </li>
+
                                 </ul>
                             </div>
                     </div>
