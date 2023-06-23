@@ -1,7 +1,7 @@
-.container {
+.partners__container {
     width: 100%;
 }
-h2{
+.partners__container h2{
     text-align:center;
     padding: 20px;
   }

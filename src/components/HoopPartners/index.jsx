@@ -3,7 +3,7 @@ import './partners.css';
 
 export function Partners() {
     return (
-        <div class="container"> 
+        <div class="partners__container"> 
             <h2>Our  Partners/ Our Clients</h2>
             <section class="customer-logos slider slick-initialized slick-slider">
                 <div aria-live="polite" class="slick-list draggable">

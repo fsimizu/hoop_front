@@ -8,7 +8,7 @@ import { OurVision } from "../components/OurVision";
 import { OurWork } from "../components/OurWork";
 import { SocialMedia } from "../components/SocialMedia";
 import { OurResults } from "../components/OurResults";
-import GetInTouch from "../components/GetInTouch";
+import { GetInTouch } from "../components/GetInTouch";
 
 
 export function Root() {
@@ -24,6 +24,7 @@ export function Root() {
       <OurResults />
       <Partners />
       <GetInTouch />
+      <Footer />
     </div>
   );
 }
