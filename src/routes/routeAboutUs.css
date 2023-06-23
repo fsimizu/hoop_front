@@ -1,12 +1,48 @@
 /* ROUTE ABOUT US */
+.heroAboutUsText{
+    text-align: center;
+    display: block;
+}
 .icon-title{
     display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.icon1{
+    margin-top: 15px;
+}
+.title{
+    display: flex;
+    height: 80px;
+    align-items: end;
+    margin-left: 20px;
+}
+
+.misionVision{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.pAbout{
+    display: flex;
+    justify-content: center;
+}
+.pAbout p {
+    font-size: Roboto, sans-serif;
+    font-size: 18px;
+
 }
 
 .our{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.our h2{
+    text-align: center;
 }
 
 .our h3{
@@ -20,3 +56,77 @@
 .ourWork__card-content{
     display: flex;
 }
+.values h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* Testimony */
+.testimony{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardAbout{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 500px;
+    height: 290px;
+    border-radius: 30px !important;
+    margin: 10px;
+}
+
+.imgAbout{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.imgAbout img{
+    width: 100%;
+}
+.cardContent{
+    background-color: #C01964;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContent p{
+    font-size: 14px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.cardContent h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto, sans-serif;  
+    font-style: normal; 
+}
+.cardContent h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto, sans-serif;   
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+   .icon-title{
+    justify-content: center;
+   }
+
+   .icon-title{
+    margin-top: 50px;
+   }
+
+
+  }
