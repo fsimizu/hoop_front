@@ -77,9 +77,13 @@
         min-height: 570px;
     }
     .getInTouch {
-
         padding-left: 0px;
         padding-right: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .getInTouch .container{
+        padding: 50px 30px;
     }
 
 }
