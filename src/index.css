@@ -5,3 +5,11 @@
 body {
     color: #1C3855;
 }
+
+.text-pink{
+    color: #E61A6B;
+}
+
+.text-grey{
+    color: rgba(28, 56, 85, 0.8);
+}
