@@ -1,0 +1,22 @@
+/* ROUTE ABOUT US */
+.icon-title{
+    display: flex;
+}
+
+.our{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our h3{
+    text-align: center;
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.ourWork__card-content{
+    display: flex;
+}

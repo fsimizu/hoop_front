@@ -2,6 +2,8 @@ import React from "react";
 import { Container } from "../components/Container";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import "./routeAboutUs.css"
+
 
 
 export function AboutUs() {
@@ -19,8 +21,9 @@ export function AboutUs() {
                 </div>
             </div>
         </div>
-<div className="container">
-  <div  class="col-6 col-md-12">
+<div className="container our">
+  <div className="row">
+ <div  className="col-12 col-md-6">
     <div className="icon-title">
     <img src="/images/vision_icon1.svg" alt="" />
   <h2>Our mision</h2>
@@ -31,7 +34,7 @@ We understand education as the promotion of knowledge through workshops, the dev
     </div>
   </div>
 
-  <div class="col-6 col-md-12">
+  <div className="col-12 col-md-6">
     <div  className="icon-title">
        <img src="/images/vision_icon2.svg" alt="" />
   <h2>Our vision</h2>
@@ -41,8 +44,31 @@ We understand education as the promotion of knowledge through workshops, the dev
 Our goal is to provide people with the necessary tools for them to become the change agents within their own community and generate their own development.
  </p>
     </div>
+  </div>
+  <div className="row">
+<h2>Our values</h2>
+<div className="col-12 col-md-4">
+<h3>Collaboration</h3>
 </div>
-      <Container />
+<div className="col-12 col-md-4">
+<h3>Trust</h3>
+</div>
+<div className="col-12 col-md-4">
+<h3>Dynamism</h3>
+</div>
+  </div>
+  <div className="row">
+    <h2>Comunity testimony</h2>
+  <div className="col-12 col-md-6">
+
+  </div>
+  <div className="col-12 col-md-6">
+    
+  </div>
+  </div>
+ 
+
+</div>
       <Footer />
     </div>
   );

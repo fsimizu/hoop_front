@@ -16,9 +16,6 @@ export function AboutUs() {
                     </div>
                     
                 </div>
-                {/* <div class="col-12 col-md-6">
-                    <img id="aboutUs__image" src="/images/home/imgAbout.jpg" alt="image about us" />
-                </div> */}
             </div>
         </div>
 )}
