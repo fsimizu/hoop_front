@@ -6,7 +6,6 @@ export const GetInTouch = () => {
     <div className='getInTouch'>
       <div className='container'>
         <div className='getInTouch__circle-background'></div>
-        
         <div className='row contentGetInTouch'>
           <div className="col-12 col-lg-6 getInTouch__form">
             <h2>Get in <span className='text-pink'>touch</span></h2>
