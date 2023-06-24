@@ -1,7 +1,12 @@
 import React from "react";
-import { Container } from "../components/Container";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import "./routeAboutUs.css"
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+
 
 
 export function AboutUs() {
@@ -31,6 +36,7 @@ export function AboutUs() {
           </div>
         </div>
 
+
         <div class="col-6 col-md-12">
           <div className="icon-title">
             <img src="/images/vision_icon2.svg" alt="" />
@@ -43,6 +49,109 @@ export function AboutUs() {
         </div>
       </div>
       <Container />
+=======
+<div className="container our">
+  <div className="row misionVision">
+ <div  className=" col-12 col-md-6">
+    <div className="icon-title">
+    <img  className="icon1" src="/images/vision_icon1.svg" alt="" />
+    <div className="title">
+      <h2>Our mision</h2>  
+    </div>
+
+  </div>
+<div className="pAbout">
+  <p> <strong>To  promote the comprehensive development of individuals and their families through education.</strong> 
+We understand education as the promotion of knowledge through workshops, the development of skills and academic complementarity to improve people’s abilities.</p>
+    </div>
+  </div>
+  <div className=" col-12 col-md-6">
+    <div  className="icon-title">
+       <img src="/images/vision_icon2.svg" alt="" />
+       <div className="title">
+          <h2>Our vision</h2>
+       </div>
+    </div>
+    <div className="pAbout">
+       <p>
+ <strong>Families transforming communities.</strong> <br />
+Our goal is to provide people with the necessary tools for them to become the change agents within their own community and generate their own development.
+ </p>
+    </div>
+
+    </div>
+  </div>
+
+  <div className="row values">
+<h2>Our values</h2>
+<div className="col-12 col-md-4">
+<h3>Collaboration</h3>
+</div>
+<div className="col-12 col-md-4">
+<h3>Trust</h3>
+</div>
+<div className="col-12 col-md-4">
+<h3>Dynamism</h3>
+</div>
+  </div>
+  <div className="row">
+  <h2>Comunity testimony</h2> 
+  <div className="testimony">
+  <div className="card1">
+
+<Card className="cardAbout">
+<div className="imgAbout">
+    <img src="./images/aboutUs/testimony1.jpg" alt="" />
+  </div>
+      <CardContent className="cardContent">
+        <h3>
+          Life stories
+        </h3>
+        <img src="./images/aboutUs/stars.png" alt="" />
+        <hr />
+        <div className="descriptionCard" >
+           <h4>
+          Testimony señora <br /> ceferina:  
+        </h4>
+        <p>
+        I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team
+        </p>
+        </div>
+       
+      </CardContent>
+    </Card>
+
+  </div>
+  <div className="card2">
+  <Card className="cardAbout">
+<div className="imgAbout">
+    <img src="./images/aboutUs/testimony1.jpg" alt="" />
+  </div>
+      <CardContent className="cardContent">
+        <h3>
+          Life stories
+        </h3>
+        <img src="./images/aboutUs/stars.png" alt="" />
+        <hr />
+        <div className="descriptionCard" >
+           <h4>
+          Testimony señora <br /> ceferina:  
+        </h4>
+        <p>
+        I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team
+        </p>
+        </div>
+       
+      </CardContent>
+    </Card>
+  </div>
+  </div>
+  </div>
+ 
+ 
+
+</div>
+
       <Footer />
     </div>
   );
