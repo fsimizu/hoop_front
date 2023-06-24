@@ -1,7 +1,6 @@
-
 /* HERO HOME */
 .hero__container {
-    background-image: linear-gradient(-90deg, rgba(0, 108, 154, 0.69) 14.86%, rgba(0, 108, 154, 0.38) 30.63%, rgba(158, 231, 222, 0) 50%),url('/images/hero_image.png');
+    background-image: linear-gradient(-90deg, rgba(0, 108, 154, 0.69) 14.86%, rgba(0, 108, 154, 0.38) 30.63%, rgba(158, 231, 222, 0) 50%), url('/images/hero_image.png');
     background-blend-mode: multiply;
     height: 497px;
     background-size: cover;
@@ -15,16 +14,18 @@
 .text-right {
     text-align: right;
 }
+
 .hero__text {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700 ;
+    font-weight: 700;
     font-size: 25px;
 }
+
 .hero__we-are {
     font-weight: 300;
 }
 
-.hero__yellow-text{
+.hero__yellow-text {
     color: #faba16
 }
 
@@ -36,8 +37,8 @@
 
 /* HERO ABOUT US */
 
-.heroaboutUs{
-    background-image: linear-gradient(-90deg, rgba(0, 94, 134, 0.69) 14.86%, rgba(0, 77, 111, 0.38) 30.63%, rgba(0, 0, 0, 0) 50%),url('/images/aboutUs/heroAbout.png');
+.heroaboutUs {
+    background-image: linear-gradient(-90deg, rgba(0, 94, 134, 0.69) 14.86%, rgba(0, 77, 111, 0.38) 30.63%, rgba(0, 0, 0, 0) 50%), url('/images/aboutUs/heroAbout.png');
     background-blend-mode: multiply;
     height: 497px;
     background-size: cover;
@@ -47,19 +48,21 @@
     align-items: center;
 }
 
-.heroAboutUsText{
+.heroAboutUsText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 160px;
 }
-.heroAboutUsText h4{
-font-size: 45px;
-font-weight: bold;
-color: white;
+
+.heroAboutUsText h4 {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
 }
-.heroAboutUsText p{
+
+.heroAboutUsText p {
     color: white;
     font-size: 24px;
 }
