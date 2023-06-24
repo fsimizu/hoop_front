@@ -13,3 +13,33 @@ body {
 .text-grey{
     color: rgba(28, 56, 85, 0.8);
 }
+.text-white {
+    background: rgba(255, 255, 255, 1);
+}
+
+.section__header {
+    text-align: center;
+    font-weight: 700 ;
+    font-size: 45px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.section__underline{
+    display: block;
+    margin: auto;
+}
+
+.background-blue {
+    background: rgba(60, 115, 185, 1);
+}
+.background-red {
+    background: rgba(192, 25, 100, 1);
+    /* background: rgba(230, 26, 107, 0.75); */
+
+}
+.background-yellow {
+    background: rgba(193, 140, 12, 1);
+}
+.background-green {
+    background: rgba(22, 101, 97, 1);
+}

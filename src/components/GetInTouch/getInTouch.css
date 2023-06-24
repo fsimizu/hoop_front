@@ -5,10 +5,11 @@
 }
 
 .getInTouch .container {
-    background: linear-gradient(90deg, white 68%, #3C73B9 68%);
+    background-image: url('/images/home/circleForm.svg'), linear-gradient(90deg, white 68%, #3C73B9 68%);
     border-radius: 30px;
     padding: 100px;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .contentGetInTouch {
@@ -16,23 +17,10 @@
     justify-content: space-between;
 }
 
-.getInTouch__circle-background {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background-image: url('/images/home/circleForm.svg');
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-}
-
 .getInTouch h2 {
-    font-size: 48px;
-    font-weight: 700;
     text-align: left;
-
 }
+
 .getInTouch h2, .getInTouch p {
     margin-bottom: 20px;
 }

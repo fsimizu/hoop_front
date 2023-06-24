@@ -14,7 +14,7 @@ export function Navbar() {
                             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul className="navbar-nav">
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About us</a>
+                                        <a className="nav-link dropdown-toggle" href="./about-us" role="button" data-bs-toggle="dropdown" aria-expanded="false">About us</a>
                                         <ul className="dropdown-menu">
                                             <li><a className="dropdown-item" href="./about-us">History</a></li>
                                             <li><a className="dropdown-item" href="./about-us">Mission, Vision & Values</a></li>
