@@ -9,7 +9,7 @@ export function AboutUs() {
   return (
     <div>
       <Navbar />
-      <RouteAboutUs/>
+     
       <Footer />
     </div>
   );

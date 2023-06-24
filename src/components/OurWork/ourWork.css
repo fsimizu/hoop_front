@@ -1,16 +1,6 @@
 .ourWork__container{
     font-family: 'Roboto', sans-serif;
 }
-.section__header {
-    font-weight: 700 ;
-    font-size: 45px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-.section__underline{
-    display: block;
-    margin: auto;
-}
 
 .ourWork__cards {
     display: flex;
