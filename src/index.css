@@ -14,7 +14,7 @@ body {
     color: rgba(28, 56, 85, 0.8);
 }
 .text-white {
-    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .section__header {
@@ -42,4 +42,8 @@ body {
 }
 .background-green {
     background: rgba(22, 101, 97, 1);
+}
+
+.text-right {
+    text-align: right;
 }
