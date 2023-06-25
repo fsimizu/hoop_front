@@ -20,7 +20,8 @@ export function OurResults() {
                                 <div className="carousel-item active" id="carousel-item-1">
                                     <div className="carousel-item-text background-blue">
                                         <div className="carousel-item-header">Life stories</div>
-                                        <div>Stars</div>
+                                        <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
+
                                         <div>-------</div>
                                         <div className="carousel-item-subheader">Testimony Rodrigo:</div>
                                         <p>I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
@@ -30,10 +31,10 @@ export function OurResults() {
                                 <div className="carousel-item" id="carousel-item-2">
                                     <div className="carousel-item-text background-red">
                                         <div className="carousel-item-header">Life stories</div>
-                                        <div>Stars</div>
+                                        <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
                                         <div>-------</div>
-                                        <div className="carousel-item-subheader">Testimony Rodrigo:</div>
-                                        <p>I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
+                                        <div className="carousel-item-subheader">Testimony señora Ceferina:</div>
+                                        <p> I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team</p>
                                     </div>
                                 </div>
 
@@ -41,20 +42,20 @@ export function OurResults() {
                                 <div className="carousel-item" id="carousel-item-3">
                                     <div className="carousel-item-text background-yellow">
                                         <div className="carousel-item-header">Life stories</div>
-                                        <div>Stars</div>
+                                        <div className="carousel-item-stars"><i class="fa-sharp fa-solid fa-star fa-lg"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
                                         <div>-------</div>
-                                        <div className="carousel-item-subheader">Testimony Rodrigo:</div>
-                                        <p>I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
+                                        <div className="carousel-item-subheader">Testimony Señora Valentina:</div>
+                                        <p>I am learning, we’re trying new activities. I am part of the Ruwana team and it’s helping my family to get another source of income. We're grateful and super content to be part of such an experience.</p>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item" id="carousel-item-4">
                                     <div className="carousel-item-text background-green">
                                         <div className="carousel-item-header">Life stories</div>
-                                        <div>Stars</div>
+                                        <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
                                         <div>-------</div>
-                                        <div className="carousel-item-subheader">Testimony Rodrigo:</div>
-                                        <p>I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
+                                        <div className="carousel-item-subheader">Testimony señora Maccimiana:</div>
+                                        <p>At HOOP, I have the opportunity to learn and write, that is something I never thought I would be able to do with having to take care of my babies.</p>
                                     </div>
                                 </div>
 
@@ -74,7 +75,7 @@ export function OurResults() {
                     
 
                     <div className="col-12 col-lg-6 section__top-margin">
-                        <div className="ourResults__item-container" >
+                        <div className="ourResults__item-container text-grey" >
                             <div className="ourResults__icon">
                                 <img src="/images/results_icon1.svg" alt="" />
                             </div>

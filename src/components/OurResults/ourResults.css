@@ -10,10 +10,8 @@
 }
 
 .ourResults__icon {
-    /* background-color:rgba(218, 218, 218, 0.3);; */
     border-radius: 10%;
     padding: 10px;
-    
 }
 
 .ourResults__icon > img {
@@ -25,7 +23,6 @@
 .ourResults__text {
     font-weight: 400;
     font-size: 24px;
-    color: rgba(28, 56, 85, 0.8);
     margin-left: 50px;;
 
 }
@@ -33,37 +30,42 @@
     margin-bottom: 0px;
 }
 
-#carouselExampleIndicators {
+.ourResults__container #carouselExampleIndicators {
     height: 100%;
     width: 100%;
 
 }
-.carousel-indicators {
+.ourResults__container .carousel-indicators {
     position: relative;
     top: 20px;
-    left: 22vw;
+    left: 19vw;
 }
 
-.carousel-indicators li {
-    width: 15px;
-    height: 15px;
+.ourResults__container .carousel-indicators li {
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgba(217, 217, 217, 1);
+    margin-right: 50px;
   }
 
-.carousel-inner {
+.ourResults__container .carousel-indicators .active{
+    background-color: rgba(192, 25, 100, 1);
+  }
+
+.ourResults__container .carousel-inner {
     height: 395px;
     border-radius: 30px;
 }
 
-.carousel-item {
+.ourResults__container .carousel-item {
     height: 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .carousel-item-text {
-    width: 50%;
+    width: 45%;
     height: 100%;
     padding: 40px;
     font-family: 'Roboto', sans-serif;
@@ -72,6 +74,7 @@
 .carousel-item-header{
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
 }
 .carousel-item-subheader{
     font-size: 24px;
@@ -81,6 +84,9 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
+}
+.carousel-item-stars {
+    text-align: center;
 }
 
 #carousel-item-1 {
@@ -94,4 +100,23 @@
 }
 #carousel-item-4 {
     background-image: url('/images/results_img4.png');
+}
+
+@media (max-width: 1440px) {
+    .carousel-item-text {
+        padding: 20px;
+    }
+    .carousel-item-header{
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .carousel-item-text {
+        padding: 10px;
+    }
+    .carousel-item-header{
+        font-size: 35px;
+    }
+
 }
