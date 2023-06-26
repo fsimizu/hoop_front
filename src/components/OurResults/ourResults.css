@@ -1,3 +1,6 @@
+.ourResults__container {
+    margin-bottom: 60px;
+}
 .ourResults__item-container {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -38,7 +41,8 @@
 .ourResults__container .carousel-indicators {
     position: relative;
     top: 20px;
-    left: 19vw;
+    left: 55%; 
+    margin: auto;
 }
 
 .ourResults__container .carousel-indicators li {
@@ -46,7 +50,9 @@
     height: 20px;
     border-radius: 50%;
     background-color: rgba(217, 217, 217, 1);
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
   }
 
 .ourResults__container .carousel-indicators .active{
@@ -61,7 +67,6 @@
 .ourResults__container .carousel-item {
     height: 100%;
     background-repeat: no-repeat;
-    background-position: right;
 }
 
 .carousel-item-text {
@@ -69,6 +74,10 @@
     height: 100%;
     padding: 40px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.carousel-item-text img {
+    width: 100%;
 }
 
 .carousel-item-header{
@@ -90,16 +99,27 @@
 }
 
 #carousel-item-1 {
-    background-image: url('/images/results_img1.png');
+    /* background-image: url('/images/results_img1.png'); */
+    background: linear-gradient(0deg, rgba(60, 115, 185, 0.25), rgba(60, 115, 185, 0.25)), url('/images/results_img1.png');
+    background-position: right;
+    
 }
 #carousel-item-2 {
-    background-image: url('/images/results_img2.png');
+    background: linear-gradient(0deg, rgba(230, 26, 107, 0.25), rgba(230, 26, 107, 0.25)), url('/images/results_img2.png');
+    background-position: right;
 }
 #carousel-item-3 {
-    background-image: url('/images/results_img3.png');
+    background: linear-gradient(0deg, rgba(250, 186, 22, 0.25), rgba(250, 186, 22, 0.25)), url('/images/results_img3.png');
+    background-position: right;
 }
+
 #carousel-item-4 {
-    background-image: url('/images/results_img4.png');
+    background: linear-gradient(0deg, rgba(22, 101, 97, 0.2), rgba(22, 101, 97, 0.2)), url('/images/results_img4.png');
+    background-position: right;
+}
+#carousel-item-5 {
+    background-image: url('/images/results_img5.png');
+    background-position: right;
 }
 
 @media (max-width: 1440px) {
@@ -111,12 +131,15 @@
     }
 
 }
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
     .carousel-item-text {
         padding: 10px;
     }
     .carousel-item-header{
         font-size: 35px;
+    }
+    .ourResults__container .carousel-indicators {
+        left: 0vw;
     }
 
 }

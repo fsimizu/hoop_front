@@ -1,29 +1,35 @@
 /* HOME */
+.aboutUs__container {
+    background-image: url("/public/images/home/backgroundAbout.png");
+    /* background-size: cover; */
+    background-position: top left;
+}
+
+.aboutUs__text-container {
+    text-align: left;
+    padding: 50px 100px;
+}
+.aboutUs__text-container h2 {
+    text-align: left;
+}
+
+.aboutUs__text-container img{
+    margin-left: 0px;
+}
+
 #aboutUs__image {
     height: 300px;
 }
-.about h2{
-    text-align: center;
-    margin-top: 40px;
 
-}
-
-.descriptionAbout{
+.aboutUs__text {
     font-size: 22px;
     font-family: Roboto, sans-serif;
 }
 
-.descriptionAbout p{
+.aboutUs__text p{
     margin-top: 1rem;
-    text-align: left;
 }
-
-.about{
-    background-image: url("/public/images/home/backgroundAbout.png");
-    background-size: cover;
-    background-position: center;
-    padding: 0px 50px 50px 50px ;
-    margin-top: 100px;
+.aboutUs__container a {
+    text-decoration: none;
 }
-
 

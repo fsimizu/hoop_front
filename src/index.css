@@ -6,10 +6,11 @@ body {
     color: #1C3855;
 }
 
-.text-pink{
+
+
+.text-pink {
     color: #E61A6B;
 }
-
 .text-grey{
     color: rgba(28, 56, 85, 0.8);
 }
@@ -17,6 +18,9 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
+.section__top-margin {
+    margin-top: 40px;
+}
 .section__header {
     text-align: center;
     font-weight: 700 ;
@@ -24,9 +28,10 @@ body {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-.section__underline{
+.section__underline {
     display: block;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .background-blue {
@@ -34,14 +39,15 @@ body {
 }
 .background-red {
     background: rgba(192, 25, 100, 1);
-    /* background: rgba(230, 26, 107, 0.75); */
-
 }
 .background-yellow {
     background: rgba(193, 140, 12, 1);
 }
 .background-green {
     background: rgba(22, 101, 97, 1);
+}
+.background-purple {
+    background: rgba(158, 26, 119, 1);
 }
 
 .text-right {
