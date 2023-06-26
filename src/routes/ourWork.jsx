@@ -1,15 +1,14 @@
 import React from "react";
-import { Container } from "../components/Container";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import RouteOurWork from "../components/RouteOurWork/RouteOurWork";
 
 export function OurWork() {
 
   return (
     <div>
       <Navbar />
-      <h1>Our Work</h1>
-      <Container />
+      <RouteOurWork/>
       <Footer />
     </div>
   );
