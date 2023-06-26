@@ -18,9 +18,9 @@ export function Footer() {
                         <p>Partners and Comms</p>
                         <p>Organizations and Companies</p>
                     </div>
-                    <div className="col-12 col-lg-4">
+                    <div className="col-12 col-lg-4 footer__logo">
                         <img src="/images/hero_logo.png" alt="" id="footer__image"/>
-                        <p>Asociación Flora Tristán,<br/>Mz R Lote 1 Cerro Colorado<br/>Arequipa 04000 - Peru</p>
+                        <p>Asociación Flora Tristán, Mz R Lote 1 Cerro Colorado Arequipa 04000 - Peru</p>
                     </div>
                 </div>
             </div>

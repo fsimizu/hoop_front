@@ -22,7 +22,6 @@ export function Root() {
       <OurVision />
       <OurWork />
       <OurResults />
-      <Partners />
       <GetInTouch />
       <Footer />
     </div>

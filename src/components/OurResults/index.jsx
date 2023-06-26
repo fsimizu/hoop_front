@@ -3,7 +3,7 @@ import './ourResults.css';
 
 export function OurResults() {
     return (
-        <div className="ourResults__container">
+        <div className="ourResults__container section__top-margin">
             <div className="container">
                 <h2 className="section__header">Our results</h2>
                 <img className="section__underline" src="/images/underline.svg" alt="" />
@@ -21,8 +21,7 @@ export function OurResults() {
                                     <div className="carousel-item-text background-blue">
                                         <div className="carousel-item-header">Life stories</div>
                                         <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
-
-                                        <div>-------</div>
+                                        <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony Rodrigo:</div>
                                         <p>I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
                                     </div>
@@ -32,7 +31,7 @@ export function OurResults() {
                                     <div className="carousel-item-text background-red">
                                         <div className="carousel-item-header">Life stories</div>
                                         <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
-                                        <div>-------</div>
+                                        <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony señora Ceferina:</div>
                                         <p> I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team</p>
                                     </div>
@@ -43,7 +42,7 @@ export function OurResults() {
                                     <div className="carousel-item-text background-yellow">
                                         <div className="carousel-item-header">Life stories</div>
                                         <div className="carousel-item-stars"><i class="fa-sharp fa-solid fa-star fa-lg"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
-                                        <div>-------</div>
+                                        <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony Señora Valentina:</div>
                                         <p>I am learning, we’re trying new activities. I am part of the Ruwana team and it’s helping my family to get another source of income. We're grateful and super content to be part of such an experience.</p>
                                     </div>
@@ -53,19 +52,30 @@ export function OurResults() {
                                     <div className="carousel-item-text background-green">
                                         <div className="carousel-item-header">Life stories</div>
                                         <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
-                                        <div>-------</div>
+                                        <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony señora Maccimiana:</div>
                                         <p>At HOOP, I have the opportunity to learn and write, that is something I never thought I would be able to do with having to take care of my babies.</p>
                                     </div>
                                 </div>
 
+                                <div className="carousel-item" id="carousel-item-5">
+                                    <div className="carousel-item-text background-purple">
+                                        <div className="carousel-item-header">Life stories</div>
+                                        <div><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></div>
+                                        <div><img src="/images/results_line.png" alt="" /></div>
+                                        <div className="carousel-item-subheader">Testimony Yerson:</div>
+                                        <p>HOOP brings me education, teaches me English, helps getting to know new friends, brings new teachers to talk to, thanks to HOOP I know how to speak English.</p>
+                                    </div>
+                                </div>
+
                             </div>
 
-                             <ol class="carousel-indicators"> {/*//tiene que estar adentro del carousel para que cambie el color */}
+                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                             </ol>
 
                         </div>
