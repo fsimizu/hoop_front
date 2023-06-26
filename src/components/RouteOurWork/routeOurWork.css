@@ -1,0 +1,163 @@
+/* HERO OUR WORK */
+
+.heroOurWork {
+    background-image: linear-gradient(-90deg, rgba(0, 94, 134, 0.69) 14.86%, rgba(0, 77, 111, 0.38) 30.63%, rgba(0, 0, 0, 0) 50%), url('/images/ourWork/heroOurWork.png');
+    background-blend-mode: multiply;
+    height: 520px;
+    background-size: cover;
+    background-position: left top;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.heroOurWorkText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.heroOurWorkText h4 {
+    font-size: 140px;
+    font-weight: bold;
+    color: rgb(255, 255, 255, 0.4);
+}
+
+.heroOurWorkText p {
+    color: white;
+    font-size: 24px;
+}
+
+/* OUR PROGRAMS */
+
+.ourPrograms h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    margin-top: 30px;
+}
+
+.ourPrograms h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.program {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.program p {
+    padding: 10px;
+}
+
+.program a {
+    color: #1C3855;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.imgPrograms,
+.imgPrograms2 {
+    width: 550px;
+    height: 400px;
+}
+
+.imgPrograms2 img {
+    width: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.imgPrograms img {
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+/* SDGS */
+
+.goalsHoop h3,
+.goalsHoop h2 {
+    text-align: center;
+
+}
+
+.sliderGoals {
+    display: flex !important;
+    justify-content: space;
+    margin-top: 60px;
+}
+
+.goalImg {
+    width: 15%;
+}
+
+.goalDesription {
+    width: 40%;
+    margin-left: 30px;
+}
+
+/* SPONSORS */
+.sponsors h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.slider {
+    width: 200px !important;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .heroOurWork {
+        margin: 0 !important;
+        height: 800px;
+    }
+
+    .heroOurWorkText h4 {
+        font-size: 90px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .heroOurWorkText p {
+        font-size: 17px;
+    }
+
+    .program h3 {
+        text-align: center;
+    }
+
+
+
+    .program p {
+        text-align: center;
+    }
+
+    .program a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .imgPrograms img,
+    .imgPrograms2 img {
+        border-radius: 50%;
+    }
+}

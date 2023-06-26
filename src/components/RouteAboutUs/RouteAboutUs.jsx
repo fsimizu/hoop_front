@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 
 const RouteAboutUs = () => {
     return (
-        <section className='routeAboutUs'>
+        <div className='routeAboutUs'>
             {/* HERO ABOUT US */}
             <div className="heroaboutUs p-5 bg-image">
                 <div className="container">
@@ -20,7 +20,7 @@ const RouteAboutUs = () => {
             </div>
 
             {/* OUR MISION/VISON/ -OUR VALUES */}
-            <div className="container our">
+            <section id="ourValues" className="container our" >
                 <div className="row misionVision">
                     <div className=" col-12 col-md-6">
                         <div className="icon-title">
@@ -69,10 +69,10 @@ const RouteAboutUs = () => {
 
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* TESTIMONY */}
-            <div className="row testimony">
+            <section id="testimony" className="row testimony">
                 <h2>Comunity testimony</h2>
                 <div className="conTestimony">
 
@@ -123,10 +123,10 @@ const RouteAboutUs = () => {
 
 
                 </div>
-            </div>
+            </section>
 
             {/* OUR PURPOSE - OUR IMPACT */}
-            <div className="row purpose">
+            <section id='ourPurpose' className="row purpose">
                 <div className="col-12 col-md-6 contPurpose">
                     <h2>Our purpose</h2>
                     <p>From 2012 up until now, HOOP has supported more than 230 families. 120 students are receiving english and/or coding classes, the average attendance to the classes is 80%.</p>
@@ -137,8 +137,8 @@ const RouteAboutUs = () => {
                     <img src="./images/aboutUs/ourPurpose.jpg" alt="" />
                 </div>
 
-            </div>
-            <div className="row impact">
+            </section>
+            <section id='ourImpact' className="row impact">
                 <div className="col-12 col-md-6 imgImpact">
                     <img src="./images/aboutUs/ourImpact.jpg" alt="" />
                 </div>
@@ -151,79 +151,84 @@ const RouteAboutUs = () => {
 
                     <p>Over the years, more than 400 volunteers, national & international, have helped us in our projects and we have launched 2 social companies enabling 25 to get trained in professional knitting and receive an additional income.</p>
                 </div>
-            </div>
+            </section>
 
             {/* HOOP TEAM */}
             <h2>The Hoopteam</h2>
-            <div className="team">
-                <div className="member">
-                    <img src="./images/aboutUs/member1.png" alt="" />
-                    <h4>Yves Trionnaire</h4>
-                    <h5>Director</h5>
+            <section id='team'>
+                <div className="team">
+                    <div className="member">
+                        <img src="./images/aboutUs/member1.png" alt="" />
+                        <h4>Yves Trionnaire</h4>
+                        <h5>Director</h5>
+                    </div>
+                    <div className="member">
+                        <img src="./images/aboutUs/member2.png" alt="" />
+                        <h4>Cristabel Farronay </h4>
+                        <h5>Education coordinator</h5>
+                    </div>
+                    <div className="member">
+                        <img src="./images/aboutUs/member3.png" alt="" />
+                        <h4>Marina Lobato</h4>
+                        <h5>Community coordinator</h5>
+                    </div>
+                    <div className="member">
+                        <img src="./images/aboutUs/member4.png" alt="" />
+                        <h4>Lucia Cardenas</h4>
+                        <h5>Family Coordinator</h5>
+                    </div>
                 </div>
-                <div className="member">
-                    <img src="./images/aboutUs/member2.png" alt="" />
-                    <h4>Cristabel Farronay </h4>
-                    <h5>Education coordinator</h5>
+                <div className="team">
+                    <div className="member">
+                        <img src="./images/aboutUs/member5.png" alt="" />
+                        <h4>Anthony Urquizo </h4>
+                        <h5>Flora Circular Coordinator</h5>
+                    </div>
+                    <div className="member">
+                        <img src="./images/aboutUs/member6.png" alt="" />
+                        <h4>Elena Urday</h4>
+                        <h5>HR Director</h5>
+                    </div>
+                    <div className="member">
+                        <img src="./images/aboutUs/member7.png" alt="" />
+                        <h4>Camila Guzmán</h4>
+                        <h5>Directora de comunicacion</h5>
+                    </div>
+                    <div className="member">
+                        <img src="./images/aboutUs/member8.png" alt="" />
+                        <h4>Wileny Cardenas</h4>
+                        <h5>Legal Assistant</h5>
+                    </div>
                 </div>
-                <div className="member">
-                    <img src="./images/aboutUs/member3.png" alt="" />
-                    <h4>Marina Lobato</h4>
-                    <h5>Community coordinator</h5>
-                </div>
-                <div className="member">
-                    <img src="./images/aboutUs/member4.png" alt="" />
-                    <h4>Lucia Cardenas</h4>
-                    <h5>Family Coordinator</h5>
-                </div>
-            </div>
-            <div className="team">
-                <div className="member">
-                    <img src="./images/aboutUs/member5.png" alt="" />
-                    <h4>Anthony Urquizo </h4>
-                    <h5>Flora Circular Coordinator</h5>
-                </div>
-                <div className="member">
-                    <img src="./images/aboutUs/member6.png" alt="" />
-                    <h4>Elena Urday</h4>
-                    <h5>HR Director</h5>
-                </div>
-                <div className="member">
-                    <img src="./images/aboutUs/member7.png" alt="" />
-                    <h4>Camila Guzmán</h4>
-                    <h5>Directora de comunicacion</h5>
-                </div>
-                <div className="member">
-                    <img src="./images/aboutUs/member8.png" alt="" />
-                    <h4>Wileny Cardenas</h4>
-                    <h5>Legal Assistant</h5>
-                </div>
-            </div>
+            </section>
 
-            {/* HOOP INTERNATIONAL TEAM */}                
-            <h2>Our international team</h2>
-            <div className='container teamInter'>
-                <div className="international">
-<img src="./images/aboutUs/international1.png" alt="" />
-                </div>
-                <div className="international">
-                <img src="./images/aboutUs/international2.png" alt="" />
-                </div>
-                <div className="international">
-                <img src="./images/aboutUs/international3.png" alt="" />
-                </div>
-                <div className="international">
-                <img src="./images/aboutUs/international4.png" alt="" />
-                </div>
-                <div className="international">
-                <img src="./images/aboutUs/international5.png" alt="" />
-                </div>
-                <div className="international">
-                <img src="./images/aboutUs/international6.png" alt="" />
-                </div>
 
-            </div>
-        </section>
+            {/* HOOP INTERNATIONAL TEAM */}
+            <section id='international'>
+                <h2>Our international team</h2>
+                <div className='container teamInter'>
+                    <div className="international">
+                        <img src="./images/aboutUs/international1.png" alt="" />
+                    </div>
+                    <div className="international">
+                        <img src="./images/aboutUs/international2.png" alt="" />
+                    </div>
+                    <div className="international">
+                        <img src="./images/aboutUs/international3.png" alt="" />
+                    </div>
+                    <div className="international">
+                        <img src="./images/aboutUs/international4.png" alt="" />
+                    </div>
+                    <div className="international">
+                        <img src="./images/aboutUs/international5.png" alt="" />
+                    </div>
+                    <div className="international">
+                        <img src="./images/aboutUs/international6.png" alt="" />
+                    </div>
+
+                </div>
+            </section>
+        </div>
     )
 }
 
