@@ -10,7 +10,13 @@ export function Footer() {
                         <h4 className="footer__header">Contact us</h4>
                         <p>+51 913280648</p>
                         <p>info@hoop.ngo</p>
-                        <p>Follow us on Instagram</p>
+                        <p>Follow us</p>
+
+                        <div className="icon__background background-lightblue"><a href="https://www.facebook.com/HOOPPeru/" role="button"><i className="fab fa-facebook-f fa-xl text-blue"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://twitter.com/hoopperu?lang=en" role="button"><i className="fab fa-twitter fa-xl"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://www.instagram.com/hoopperu/?hl=en" role="button"><i className="fab fa-instagram fa-xl"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://www.youtube.com/channel/UC6bUtxZ6YRKtqPNjhYqfQIA" role="button"><i className="fab fa-youtube fa-xl"></i></a></div>
+                        
                     </div>
                     <div className="col-12 col-lg-4">
                         <h4 className="footer__header">Get involved</h4>

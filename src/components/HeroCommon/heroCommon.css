@@ -1,0 +1,21 @@
+.heroCommon__container {
+    --background-image: linear-gradient(-90deg, rgba(0, 108, 154, 0.69) 14.86%, rgba(0, 108, 154, 0.38) 30.63%, rgba(158, 231, 222, 0) 50%), var(--background);
+    background-image: var(--background-image);
+    background-blend-mode: multiply;
+    height: 497px;
+    background-size: cover;
+    background-position: left top;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.heroCommon__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 160px;
+    font-weight: 700;
+    line-height: 188px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}

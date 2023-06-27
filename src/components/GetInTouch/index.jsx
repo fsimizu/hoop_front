@@ -29,7 +29,7 @@ export const GetInTouch = () => {
           </div>
 
           <div className="col-12 col-lg-5 getInTouch__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.0700195173727!2d-71.56288472611996!3d-16.31936618439694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x914249cd863834bf%3A0x195a3f56e7a9e7ef!2sAsociaci%C3%B3n%20Flora%20Trist%C3%A1n!5e0!3m2!1ses!2sar!4v1687354628206!5m2!1ses!2sar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.0700195173727!2d-71.56288472611996!3d-16.31936618439694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x914249cd863834bf%3A0x195a3f56e7a9e7ef!2sAsociaci%C3%B3n%20Flora%20Trist%C3%A1n!5e0!3m2!1ses!2sar!4v1687354628206!5m2!1ses!2sar" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
         </div>
