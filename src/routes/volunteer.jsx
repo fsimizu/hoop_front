@@ -1,15 +1,16 @@
 import React from "react";
-import { Container } from "../components/Container";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import { Volunteers } from "../components/Volunteers";
+import { HeroCommon } from "../components/HeroCommon";
 
 export function Volunteer() {
 
   return (
     <div>
       <Navbar />
-      <h1>Volunteer</h1>
-      <Container />
+      <HeroCommon background={"/images/volunteer_hero.png"} title="Volunteer"/>
+      <Volunteers />
       <Footer />
     </div>
   );

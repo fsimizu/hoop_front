@@ -3,14 +3,13 @@ import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 import { HeroCommon } from "../components/HeroCommon";
 
-export function OurWork() {
+export function Community() {
 
   return (
     <div>
       <Navbar />
-      <HeroCommon background={"/images/ourWork_hero.png"} title="Our work"/>
+      <HeroCommon background={"/images/community_hero.png"} title="Community"/>
       <Footer />
     </div>
   );
 }
-
