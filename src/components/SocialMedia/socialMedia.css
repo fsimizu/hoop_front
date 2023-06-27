@@ -12,10 +12,10 @@
     align-items: center;
     z-index: 20;
 }
-.fab {
+.social-media__container .fab {
     color: #FABA16;
 }
-.icon__background {
+.social-media__container .icon__background {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -23,23 +23,27 @@
     color: #FFFFFF;
     border-radius: 22px;
 }
-.card-img-top {  /* OJO */
+.ourWork__card-container .card-img-top {  
     height: 230px;
 }
-.card-body {  /* OJO */
+.ourWork__card-container .card-body {  
     padding: 30px;
     height: 300px;
+    position: relative;
 }
 .ourWork__readMore {
     font-weight: 700 ;
-    text-align: right;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+
 }
 
-.card-title{ /* OJO */
+.ourWork__card-container .card-title{
     font-weight: 700 ;
     font-size: 32px;
 }
-.card-text{  /* OJO */
+.ourWork__card-container .card-text{  
     font-weight: 400 ;
     font-size: 16px;
 }

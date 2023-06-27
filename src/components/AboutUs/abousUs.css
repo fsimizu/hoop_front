@@ -1,10 +1,13 @@
 /* HOME */
 .aboutUs__container {
     background-image: url("/public/images/home/backgroundAbout.png");
-    /* background-size: cover; */
-    background-position: top left;
+    background-size: cover;
+    background-position: top right;
 }
-
+.aboutUs__container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .aboutUs__text-container {
     text-align: left;
     padding: 50px 100px;
@@ -33,3 +36,9 @@
     text-decoration: none;
 }
 
+
+@media (max-width: 991px) {
+    .aboutUs__container {
+        background-image: none;
+    }
+}

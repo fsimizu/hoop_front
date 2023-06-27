@@ -4,7 +4,13 @@
 
 }
 #ourVision__image {
-    width: 100%
+    width: 90%
+}
+
+.ourVision__container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    --bs-gutter-x: 0px;
 }
 
 .ourVision__item-container {

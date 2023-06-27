@@ -9,6 +9,7 @@ import { OurWork } from "../components/OurWork";
 import { SocialMedia } from "../components/SocialMedia";
 import { OurResults } from "../components/OurResults";
 import { GetInTouch } from "../components/GetInTouch";
+import { Volunteers } from "../components/Volunteers";
 
 
 export function Root() {

@@ -6,8 +6,6 @@ body {
     color: #1C3855;
 }
 
-
-
 .text-pink {
     color: #E61A6B;
 }
@@ -48,6 +46,12 @@ body {
 }
 .background-purple {
     background: rgba(158, 26, 119, 1);
+}
+.background-pink {
+    background: rgba(230, 26, 107, 1);
+}
+.background-lightblue {
+    background: rgba(43, 180, 170, 1);
 }
 
 .text-right {
