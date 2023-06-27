@@ -1,12 +1,7 @@
 import React from "react";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
-import "./routeAboutUs.css"
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-
+import RouteAboutUs from "../components/RouteAboutUs/RouteAboutUs";
 
 
 export function AboutUs() {
@@ -49,7 +44,6 @@ export function AboutUs() {
         </div>
       </div>
       {/* <Container /> */}
-=======
 <div className="container our">
   <div className="row misionVision">
  <div  className=" col-12 col-md-6">
@@ -152,6 +146,8 @@ Our goal is to provide people with the necessary tools for them to become the ch
 
 </div>
 
+
+     <RouteAboutUs/>
       <Footer />
     </div>
   );
