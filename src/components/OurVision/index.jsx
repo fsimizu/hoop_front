@@ -4,7 +4,7 @@ import './ourVision.css';
 export function OurVision() {
     return (
         <div className="ourVision__container section__top-margin">
-
+            <a id="our-vision"></a>
             <div className="row">
                 <div className="ourVision__image-container col-12 col-lg-6 section__top-margin">
                     <img id="ourVision__image" src="/images/ourvision.png" alt="image" />

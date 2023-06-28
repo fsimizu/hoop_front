@@ -42,7 +42,7 @@ const router = createBrowserRouter([
     element: <Family />
   },
   {
-    path: "/getInvolved",
+    path: "/get-involved",
     element: <GetInvolved />
   }
 ])
