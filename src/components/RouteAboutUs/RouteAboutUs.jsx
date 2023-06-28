@@ -12,7 +12,7 @@ const RouteAboutUs = () => {
                 <div className="container">
                     <div className="d-flex justify-content-end h-100">
                         <div className="heroAboutUsText">
-                            <h4>Our Story</h4>
+                            <h1>Our Story</h1>
                             <p><strong>Our work began</strong> in the <strong>Flora Tristán English School in 2008</strong>. Wishing to have a <strong>larger impact in the community</strong>, a group that included school staff and volunteers established HOOP as a registered Peruvian non-profit organization in 2012. Our five co-founders shared a vision for the organization that would help ensure its work in the community would be meaningful, ethical and long-lasting.HOOP has continued to grow ever since. <br />                                               As well as our programs, workshops and assessment for the development of our participants.</p>
                         </div>
                     </div>
