@@ -4,8 +4,8 @@ import './ourWork.css';
 export function OurWork() {
     return (
         <div className="ourWork__container section__top-margin">
+            <a id="our-work"></a>
             <div className="container">
-
                 <h2 className="section__header">Our work</h2>
                 <img className="section__underline" src="/images/underline.svg" alt="" />
 
