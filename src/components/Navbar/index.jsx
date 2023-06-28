@@ -32,7 +32,7 @@ export function Navbar() {
                                             <li><a className="dropdown-item" href="./our-work">Our programs</a></li>
                                             <li><a className="dropdown-item" href="./education">Education</a></li>
                                             <li><a className="dropdown-item" href="./family">Family</a></li>
-                                            <li><a className="dropdown-item" href="./community">Community &raquo; </a>
+                                            <li><a className="dropdown-item" href="./community">Community</a>
                                                 {/* <ul className="dropdown-menu dropdown-submenu dropdown-submenu-left">
                                                     <li><a className="dropdown-item" href="#">Circular flora</a></li>
                                                     <li><a className="dropdown-item" href="#">Ruwana</a></li>
@@ -44,18 +44,18 @@ export function Navbar() {
                                             <li><a className="dropdown-item" href="./our-work">Annual report</a></li>
                                             
                                             <li>
-                                                <a className="dropdown-item" href="./our-work"> Sponsors &raquo; </a>
-                                                <ul className="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                <a className="dropdown-item" href="./our-work"> Sponsors</a>
+                                                {/* <ul className="dropdown-menu dropdown-submenu dropdown-submenu-left">
                                                     <li><a className="dropdown-item" href="#">Become a sponsor</a></li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
 
                                         </ul>
                                     </li>
 
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Volunteer</a>
-                                        <ul className="dropdown-menu">
+                                        <a className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Volunteer</a>
+                                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
                                             <li><a className="dropdown-item" href="./volunteer">Join us</a></li>
                                             <li><a className="dropdown-item" href="./volunteer">Donate</a></li>
                                             <li><a className="dropdown-item" href="./volunteer">Something else here</a></li>

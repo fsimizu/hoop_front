@@ -1,7 +1,16 @@
-.navbar__container {
-    background-color: #D9D9D9;
+/* .navbar__container {
+    background-color: white !important;
 }
 
+.navbar__container .navbar-nav {
+    background-color: white;
+}
+
+*/
+
+.navbar__container .container {
+    margin-bottom: 10px;
+}
 .navbar-collapse {
     flex-grow: 0;
 }
@@ -9,16 +18,17 @@
 .navbar {
     font-family: 'Inter';
     font-size: 18px;
-    height: 120px;
+    /* height: 120px; */
 }
 
 .navbar-brand img{
     height: 61px;
 }
+
 .nav-link {
     margin-left: 30px;
 }
-
+/*
 .dropdown-menu li {
     position: relative;
 }
@@ -35,8 +45,12 @@ left: auto;
 .dropdown-menu > li:hover > .dropdown-submenu {
 display: block;
 }
-
+*/
 .navbar__container .btn-primary {
     background: rgba(156, 27, 119, 1);
     border-radius: 15px;
-}
+    display: inline;
+    position: relative;
+    top: 5px;
+    padding: 10px 20px;
+} 
