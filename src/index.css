@@ -70,6 +70,10 @@ body {
 .background-lightyellow {
     background: rgba(250, 186, 22, 1);
 }
+.background-gray {
+    background: rgba(242, 240, 240, 1);
+
+}
 
 
 

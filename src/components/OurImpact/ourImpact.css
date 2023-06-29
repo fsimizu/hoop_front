@@ -1,0 +1,46 @@
+.ourImpact__cards {
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.ourImpact__cards .card{
+    border: none;
+}
+
+.ourImpact__card-content {
+    width: 273px;
+    height: 282px;
+    border-radius: 22px;
+    box-shadow: 0px 8px 8px rgba(183, 164, 164, 0.25);
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourImpact__card-content img {
+    height: 110px;
+}
+
+.ourImpact__card-content h2 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(60, 115, 185, 1);
+    }
+
+
+.ourImpact__readMore {
+    font-size: 24px;
+    font-weight: 700;    
+    border: none;
+    width: 350px;
+    height: 78px;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #2864B0 49.02%, #0C4081 100%);
+}
