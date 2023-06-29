@@ -6,12 +6,14 @@ import ContentAboutUs from "../components/ContentAboutUs/ContentAboutUs";
 import OurPurposeImpact from "../components/OurPurposeImpact/OurPurposeImpact";
 import { OurResults } from "../components/OurResults";
 import OurTeam from "../components/OurTeam/OurTeam";
+import { SocialMedia } from "../components/SocialMedia";
 
 export function AboutUs() {
 
   return (
     <div>
       <Navbar />
+      <SocialMedia />
       <HeroCommon background={"/images/aboutUs/heroAbout.png"} title="Our Story" />
       <ContentAboutUs />
       <OurResults title="Community Testimony" />
