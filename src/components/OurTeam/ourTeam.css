@@ -1,0 +1,50 @@
+/* Our team */
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#team h2, #international h2{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    font-size: 45px;
+}
+
+.member {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member img {
+    border-radius: 120px;
+}
+
+.member h4 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.member h5 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+/* INTERNATIONAL TEAM */
+.teamInter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+
+.international {
+    margin: 12px 35px 12px 35px;
+}

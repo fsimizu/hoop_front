@@ -1,0 +1,39 @@
+/* Our purpose - Our impact */
+.purpose,
+.impact {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgImpact,
+.imgPurpose {
+    width: 500px;
+}
+
+.imgImpact img,
+.imgPurpose img {
+    width: 100%;
+}
+
+.purpose h2,
+.impact h2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.purpose p,
+.impact p {
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    margin-top: 15px;
+    margin: 10px;
+}
+
+.contImpact,
+.contPurpose {
+    width: 500px;
+    margin: 10px;
+}

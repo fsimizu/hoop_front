@@ -1,20 +1,39 @@
 import React from 'react'
 import "./routeVolunteer.css"
 import { Card } from '@mui/material'
+import Slider from "react-slick";
 
-const RouteVolunteer = () => {
+const ContentVolunteer = () => {
+    
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+
+                }
+            }
+        ]
+    };
+
+
+
     return (
         <section >
-            {/* HERO VOLUNTEER */}
-            <div className="heroVolunteer p-5 bg-image">
-                <div className="container">
-                    <div className="d-flex justify-content-center h-100">
-                        <div className="heroVolunteerText">
-                            <h1>Volunteer</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
 <div className='container volunteer'>
     <h2>Volunteer</h2>
     <ul>
@@ -48,47 +67,10 @@ const RouteVolunteer = () => {
     <h3>Do you have questions about volunteering in hoop?</h3>
     <h3>Read our FAQ or send us an email at info@hoop.ngo
 To learn more about our work, you can review our Annual Reports.</h3>
-
-<div className='hoopVolunteers'>
-<Slider {...settings} >
-
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
-
-
-                        <div className='slider'>
-                            <img src="./images/ourWork/sponsor2.png" alt="" />
-                        </div>
-                        <div className='slider'>
-                            <img src="./images/ourWork/sponsor3.png" alt="" />
-                        </div>
-                        <div className='slider'>
-                            <img src="./images/ourWork/sponsor4.png" alt="" />
-                        </div>
-                    </Slider>
-</div>
-</div>
-            
+</div>          
         </section>
+
     )
 }
 
-export default RouteVolunteer
+export default ContentVolunteer

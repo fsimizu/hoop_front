@@ -22,7 +22,8 @@ export function Root() {
       <AboutUs />
       <OurVision />
       <OurWork />
-      <OurResults />
+      <OurResults title={"Our Results"} />
+      <Partners />
       <GetInTouch />
       <Footer />
     </div>
