@@ -1,12 +1,13 @@
 import React from "react";
 import './ourResults.css';
 
-export function OurResults() {
+export function OurResults({title}) {
+
     return (
         <div className="ourResults__container section__top-margin">
             <div className="container">
                 <a id="our-results"></a>
-                <h2 className="section__header">Our results</h2>
+                <h2 className="section__header">{title}</h2>
                 <img className="section__underline" src="/images/underline.svg" alt="" />
 
                 <div className="row">
