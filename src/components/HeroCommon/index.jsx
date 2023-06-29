@@ -1,7 +1,7 @@
 import React from "react";
 import './heroCommon.css';
 
-export function HeroCommon( {background, title, text} ) {
+export function HeroCommon( {background, title} ) {
     const containerStyle = {
         "--background": `url(${background})`,
       };
@@ -10,7 +10,7 @@ export function HeroCommon( {background, title, text} ) {
             <div className="heroCommon__container p-5 bg-image" style={containerStyle}>
                 <div className="container">
                     <div className="d-flex justify-content-center h-100">
-                            <div className="col-lg-10">
+                            <div className="col-12">
                                 <h4 className="mb-3 heroCommon__title">{title}</h4>
                             </div>
                     </div>
