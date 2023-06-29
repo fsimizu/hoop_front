@@ -48,13 +48,7 @@
     font-size: 16px;
 }
 
-/* poner la clase en el html referenciando al main css */
-.card_blue {
+
+.background-darkblue {
     background-color: #1C3855;
-}
-.card_red {
-    background-color: #751C59;
-}
-.card_green {
-    background-color: #166561;
 }

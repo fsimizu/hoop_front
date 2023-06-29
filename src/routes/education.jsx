@@ -13,7 +13,7 @@ export function Education() {
     <div>
       <Navbar />
       <SocialMedia />
-      <HeroCommon background={"/images/education_hero.png"} title="Education"/>
+      <HeroCommon background={"/images/education_hero.jpg"} title="Education"/>
       <EducationInitiatives />
       <OurImpact />
       <Footer />

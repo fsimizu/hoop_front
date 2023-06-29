@@ -32,10 +32,12 @@
 @media (max-width: 768px) {
     .heroCommon__title{
         font-size: 80px;
+        line-height: 100px;
     }
 }
 @media (max-width: 500px) {
     .heroCommon__title{
         font-size: 60px;
+        line-height: 80px;
     }
 }

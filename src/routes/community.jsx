@@ -11,7 +11,7 @@ export function Community() {
     <div>
       <Navbar />
       <SocialMedia />
-      <HeroCommon background={"/images/community_hero.png"} title="Community"/>
+      <HeroCommon background={"/images/community_hero.jpg"} title="Community"/>
       <OurImpact />
       <Footer />
     </div>

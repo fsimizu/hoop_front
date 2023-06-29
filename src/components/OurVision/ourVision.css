@@ -72,6 +72,7 @@
     #ourVision__image {
         border-radius: 50%;
         width: 60%;
+
     }
     .ourVision__item { 
         grid-template-areas: 
