@@ -4,7 +4,7 @@ import './ourImpact.css';
 
 export function OurImpact() {
     return (
-        <div className="">
+        <div className="ourImpact__container section__top-margin">
             <h2 className="section__header">Our impact</h2>
             <img className="section__underline" src="/images/underline.svg" alt="" />
             <div className="text-main text-main-container">

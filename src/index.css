@@ -20,7 +20,7 @@ body {
     font-family: 'Roboto', 'sans-serif';
     font-size: 24px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 32px;
     letter-spacing: 0em;
     text-align: center;    
 }
@@ -72,8 +72,11 @@ body {
 }
 .background-gray {
     background: rgba(242, 240, 240, 1);
-
 }
+.background-darkblue {
+    background: rgba(28, 56, 85, 1);
+}
+
 
 
 
