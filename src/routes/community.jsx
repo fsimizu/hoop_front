@@ -12,6 +12,7 @@ export function Community() {
   return (
     <div>
       <Navbar />
+<<<<<<< HEAD
       <SocialMedia />
       <GetInvolvedBtn />
       <HeroCommon background={"/images/community_hero.jpg"} title="Community"/>
@@ -20,6 +21,9 @@ export function Community() {
       </div>
       <OurProjects />
       <OurImpact />
+=======
+      <HeroCommon background={"/images/heroCommunity.jpg"} title="Community"/>
+>>>>>>> iribarren
       <Footer />
     </div>
   );
