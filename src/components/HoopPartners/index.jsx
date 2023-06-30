@@ -14,7 +14,7 @@ export function Partners() {
         slidesToScroll: 2,
         initialSlide: 0,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
 
         responsive: [
             {
@@ -28,6 +28,9 @@ export function Partners() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    centerPadding: "30px",
 
                 }
             }
@@ -54,6 +57,10 @@ export function Partners() {
             <img src="./images/ourWork/sponsor4.png" alt="" />
         </div>
     </Slider>
+<div className="buttonPartners">
+     <button className="becameApartner">Became a HOOP partner</button>
+</div>
+   
 </div>
 </section>
 )}

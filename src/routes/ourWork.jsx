@@ -12,7 +12,7 @@ export function OurWork() {
   return (
     <div>
       <Navbar />
-      <HeroCommon background={"/images/ourWork_hero.png"} title="Our work" />
+      <HeroCommon background={"/images/ourWork/heroOurWork.jpg"} title="Our work" />
       <OurPrograms/>
       <GoalsHoop />
       <Partners/>

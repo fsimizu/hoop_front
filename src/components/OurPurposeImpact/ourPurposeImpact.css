@@ -3,7 +3,7 @@
 .impact {
     margin-top: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -35,5 +35,5 @@
 .contImpact,
 .contPurpose {
     width: 500px;
-    margin: 10px;
+    margin: 30px;
 }

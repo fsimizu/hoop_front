@@ -12,13 +12,13 @@ const OurPurposeImpact = () => {
                     <p>Over the years, more than 400 volunteers, national & international, have helped us in our projects and we have launched 2 social companies enabling 25 to get trained in professional knitting and receive an additional income.</p>
                 </div>
                 <div className="col-12 col-md-6 imgPurpose">
-                    <img src="./images/aboutUs/ourPurpose.jpg" alt="" />
+                <iframe width="530" height="315" src="https://www.youtube.com/embed/pOmbGOzIygI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
 
             </section>
             <section id='ourImpact' className="row impact">
                 <div className="col-12 col-md-6 imgImpact">
-                    <img src="./images/aboutUs/ourImpact.jpg" alt="" />
+                <iframe width="530" height="315" src="https://www.youtube.com/embed/axkhCK__cVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div className="col-12 col-md-6 contImpact">
                     <h2>Our impact</h2>

@@ -8,7 +8,7 @@ export function Community() {
   return (
     <div>
       <Navbar />
-      <HeroCommon background={"/images/community_hero.png"} title="Community"/>
+      <HeroCommon background={"/images/heroCommunity.jpg"} title="Community"/>
       <Footer />
     </div>
   );
