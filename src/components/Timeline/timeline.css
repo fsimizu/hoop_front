@@ -1,0 +1,166 @@
+.timeline{
+  background-image: url("/public/images/ourWork/timeline.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.topTimeline, .bottomTimeline{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.bottomTimeline {
+  position: relative;
+  margin-top: 40px;
+}
+
+
+.lineTimeline{
+  height: 8px;
+  background-color: white;
+}
+
+.parent {
+  position: relative;
+  height: 280px;
+  background-color: transparent;
+  overflow: hidden;
+  margin-left: 40px;
+  display: flex;
+}
+
+.child {
+  position: absolute;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60px;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.child2 {
+  top: 30%;
+}
+
+.yearTimeline {
+  border: 4px white solid;
+  width: 100px;
+}
+
+.parent:hover .child {
+  opacity: 1;
+}
+
+.child h4,
+.child2 h4 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+
+}
+
+/* .lineTimeline::before,
+.lineTimeline::after {
+content: '';
+position: absolute;
+top: 50%;
+width: 2px;
+background-color: white;
+} */
+
+.lineTimeline::before {
+left: calc(50% - 1px);
+height: 50%;
+}
+
+.lineTimeline::after {
+left: calc(50% - 1px);
+height: 50%;
+bottom: 0;
+}
+
+.child .line, .child .line2 {
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 10px); 
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px; 
+  background-color: white;
+}
+
+
+
+.pLine,
+.pLine2 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  bottom: 350%;
+  width: 130px;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.pLine2::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: calc(100% + 17px);
+  background-color: white;
+  top: -170px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+@media screen and (max-width: 815px) {
+  .timeline {
+    background-size: contain;
+    height: auto;
+  }
+
+  .topTimeline,
+  .bottomTimeline {
+    flex-wrap: wrap;
+  }
+
+  .parent {
+    margin-left: 0;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 200px;
+  }
+.child .line, .child2 .line{
+  display: none;
+}
+  .child,
+  .child2 {
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 350px;
+  }
+
+
+  .pLine,
+  .pLine2 {
+    bottom: auto;
+    top: 170%;
+    transform: translateY(-50%);
+  }
+
+  .pLine2::before{
+    display: none;
+  }
+}

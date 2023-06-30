@@ -12,6 +12,7 @@ export function Community() {
   return (
     <div>
       <Navbar />
+      <HeroCommon background={"/images/heroCommunity.jpg"} title="Community"/>
       <SocialMedia />
       <GetInvolvedBtn />
       <HeroCommon background={"/images/community_hero.jpg"} title="Community"/>
