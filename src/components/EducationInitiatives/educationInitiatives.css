@@ -1,0 +1,60 @@
+.educationInitiatives__container {
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.educationInitiatives__cards {
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.educationInitiatives__cards .card{
+    border: none;
+}
+
+.educationInitiatives__card-content {
+    width: 340px;
+    height: 340px;
+    border-radius: 22px;
+    box-shadow: 0px 8px 8px rgba(183, 164, 164, 0.25);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.educationInitiatives__card-content h2 {
+    height: 75px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;   
+}
+
+.educationInitiatives__card-content p {
+    position: absolute;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;   
+}
+.educationInitiatives__border {
+    position: relative;
+    height: 68px;
+    border-left: 3px solid rgba(45, 180, 171, 1)
+}
+
+#educationInitiatives_card1 {
+    background-image: url("/images/educationInitiatives_card1.png");
+}
+#educationInitiatives_card2 {
+    background-image: url("/images/educationInitiatives_card2.png");
+}
+#educationInitiatives_card3 {
+    background-image: url("/images/educationInitiatives_card3.png");
+}
+#educationInitiatives_card4 {
+    background-image: url("/images/educationInitiatives_card3.png"); /* pendiente actualizar foto en el figma */
+}

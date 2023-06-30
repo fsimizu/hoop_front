@@ -1,0 +1,23 @@
+.getInvolvedBtn__container {
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 20;
+}
+
+.getInvolvedBtn__container a {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    left: 40px;
+    border: none;
+    background: linear-gradient(180deg, #FFCE50 57.6%, #FFA115 100%);
+    border-radius: 22px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    color: rgba(28, 56, 85, 1);
+    text-align: center;
+    box-shadow: 0px 8px 8px 0px rgba(43, 39, 39, 0.25);
+}

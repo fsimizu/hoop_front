@@ -39,7 +39,6 @@ export function Donate() {
                             <div className="card-body background-lightblue">
                                 <h5 className="card-title">Become a partner</h5>
                                 <p className="card-text">Advocate for the future of mothers and children of Flora Tristán by partnering with HOOP to ensure a promising future.</p>
-
                             </div>
                         </div>
                         <div>
