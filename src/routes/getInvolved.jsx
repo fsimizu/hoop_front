@@ -5,7 +5,6 @@ import { HeroCommon } from "../components/HeroCommon";
 import { Donate } from "../components/Donate";
 import { SocialMedia } from "../components/SocialMedia";
 
-
 export function GetInvolved() {
   return (
     <div>

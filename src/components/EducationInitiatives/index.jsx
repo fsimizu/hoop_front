@@ -13,7 +13,7 @@ export function EducationInitiatives() {
                     <div className="educationInitiatives__card-content overflow-hidden" id="educationInitiatives_card1">
                         <h2>Primary & Secondary education for adults</h2>
                         <div className="educationInitiatives__border">
-                            <p>We value education and encourage the mothers in their community to pursue the completion of their education alongside CEBA Micaela Bastidas to ensure better working opportunities.</p>
+                            <p>We value education and <strong>encourage the mothers in their community</strong> to pursue the completion of their education alongside CEBA Micaela Bastidas to ensure <strong>better working opportunities.</strong></p>
                         </div>
                     </div>
                 </div>
@@ -28,20 +28,11 @@ export function EducationInitiatives() {
                 </div>
 
                 <div className="card">
-                    <div className="educationInitiatives__card-content overflow-hidden" id="educationInitiatives_card3">
-                        <h2></h2>
-                        <div className="educationInitiatives__border">
-                        <p>We accompany the children of the community through their school tasks.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card">
                     <div className="educationInitiatives__card-content overflow-hidden" id="educationInitiatives_card4">
                         <h2>English with HOOP</h2>
 
                         <div className="educationInitiatives__border">
-                        <p>We offer daily english classes to students aged from 6 to 17 years old that strengthen their knowledge, expose them to new cultures and give them an edge in life.</p>
+                        <p><strong>We offer daily english classes </strong>to students aged from 6 to 17 years old that strengthen their knowledge, expose them to <strong>new cultures and give them an edge in life.</strong></p>
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,7 @@ import GoalsHoop from "../components/GoalsHoop/GoalsHoop";
 import OurPrograms from "../components/OurPrograms/OurPrograms";
 import { Partners } from "../components/HoopPartners";
 import { SocialMedia } from "../components/SocialMedia";
+import { GetInvolvedBtn } from "../components/GetInvolvedBtn";
 
 
 export function OurWork() {
@@ -14,6 +15,7 @@ export function OurWork() {
     <div>
       <Navbar />
       <SocialMedia />
+      <GetInvolvedBtn />
       <HeroCommon background={"/images/ourWork_hero.png"} title="Our work" />
       <OurPrograms/>
       <GoalsHoop />
