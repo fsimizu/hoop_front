@@ -54,8 +54,45 @@ export function Partners() {
             <img src="./images/ourWork/sponsor3.png" alt="" />
         </div>
         <div className='slider'>
-            <img src="./images/ourWork/sponsor4.png" alt="" />
+            <img src="./images/ourWork/sponsor5.png" alt="" />
         </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor6.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor7.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor8.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor9.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor10.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor11.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor12.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor13.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor14.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor15.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor16.png" alt="" />
+        </div>
+        <div className='slider'>
+            <img src="./images/ourWork/sponsor17.png" alt="" />
+        </div>
+
     </Slider>
 <div className="buttonPartners">
      <button className="becameApartner">Became a HOOP partner</button>

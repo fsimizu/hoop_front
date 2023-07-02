@@ -50,31 +50,59 @@ const GoalsHoop = () => {
                     </div>
                     <div className='sliderGoals'>
                         <div className='goalImg'>
-                            <img src="./images/ourWork/carousel1.png" alt="" />
+                            <img src="./images/ourWork/carousel2.png" alt="" />
                         </div>
                         <div className='goalDesription'>
-                            <h4>1. No poverty</h4>
-                            <p>We’re constantly advising the families of the community regarding topics such as health and wellbeing, in order to improve their quality of life, reduce their vulnerabilities and increase to ongoing changes and risks.</p>
+                            <h4>3. Good health and well-being</h4>
+                            <p>Our family program on promoting the community member’s well-being through psychological accompaniment, counselling and violence prevention..</p>
                         </div>
                     </div>
                     <div className='sliderGoals'>
                         <div className='goalImg'>
-                            <img src="./images/ourWork/carousel1.png" alt="" />
+                            <img src="./images/ourWork/carousel3.png" alt="" />
                         </div>
                         <div className='goalDesription'>
-                            <h4>1. No poverty</h4>
-                            <p>We’re constantly advising the families of the community regarding topics such as health and wellbeing, in order to improve their quality of life, reduce their vulnerabilities and increase to ongoing changes and risks.</p>
+                            <h4>4. Quality education</h4>
+                            <p>Our education program focuses on complementary education. Helping the children in the community get access to academic support that allows them to strengthen the knowledge gained in their schools, as well as offer complementary workshop through our partner Por un Perú mejor..</p>
                         </div>
                     </div>
                     <div className='sliderGoals'>
                         <div className='goalImg'>
-                            <img src="./images/ourWork/carousel1.png" alt="" />
+                            <img src="./images/ourWork/carousel4.png" alt="" />
                         </div>
                         <div className='goalDesription'>
-                            <h4>1. No poverty</h4>
-                            <p>We’re constantly advising the families of the community regarding topics such as health and wellbeing, in order to improve their quality of life, reduce their vulnerabilities and increase to ongoing changes and risks.</p>
+                            <h4>5. Gender Equality</h4>
+                            <p>Our family and community programs join together with the objective of stopping all forms of discrimination and violence through counselling and training for the women in the community, as well as legal accompaniment for the most sensitive cases. </p>
                         </div>
                     </div>
+                    <div className='sliderGoals'>
+                        <div className='goalImg'>
+                            <img src="./images/ourWork/carousel5.png" alt="" />
+                        </div>
+                        <div className='goalDesription'>
+                            <h4>8. Decent work and economic growth</h4>
+                            <p>In addition to school support, or education program seeks to encourage adults who have not completed their studies through alliances with Alternatives Basic Education Centers (CEBA) to increase their access to fair employment.</p>
+                        </div>
+                    </div>
+                    <div className='sliderGoals'>
+                        <div className='goalImg'>
+                            <img src="./images/ourWork/carousel6.png" alt="" />
+                        </div>
+                        <div className='goalDesription'>
+                            <h4>10. Reduced inequality</h4>
+                            <p>We promote inclusion through entrepreneurship led mainly by the mothers of the community, giving them a space for their professional development through training representation and accompaniment.</p>
+                        </div>
+                    </div>
+                    <div className='sliderGoals'>
+                        <div className='goalImg'>
+                            <img src="./images/ourWork/carousel7.png" alt="" />
+                        </div>
+                        <div className='goalDesription'>
+                            <h4>10. Sustainable cities and communities</h4>
+                            <p>Through Vida Digna (our project), we promote the improvement of the homes of the most exposed community members. And with projects such as Flora Circular we focus on educating the community regarding waste management and the increase of green areas in their homes. </p>
+                        </div>
+                    </div>
+
                 </Slider>
 
             </section>

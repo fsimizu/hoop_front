@@ -75,7 +75,7 @@ const HoopVolunteers = () => {
                         <Card sx={{ maxWidth: 320, display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }}>
                                 <CardMedia className='cardMedia'
                                     sx={{ width: 170, height: 160 }}
-                                    image="images/volunteer1.png"
+                                    image="images/volunteer3.jpeg"
                                     title="Volunteer"
                                 />
                                 <CardContent>
