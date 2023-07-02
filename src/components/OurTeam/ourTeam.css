@@ -48,3 +48,24 @@
 .international {
     margin: 12px 35px 12px 35px;
 }
+
+.international img{
+    margin-left: 18px;
+}
+
+.international h5{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #1C3855;
+}
+
+#international p{
+color: rgba(28, 56, 85, 0.80);
+text-align: center;
+font-size: 24px;
+font-family: Roboto;
+font-weight: 500;
+margin-top: 30px;
+}

@@ -57,22 +57,29 @@ const OurTeam = () => {
                 <div className='container teamInter'>
                     <div className="international">
                         <img src="./images/aboutUs/international1.png" alt="" />
+                        <h5>HOOP US</h5>
                     </div>
                     <div className="international">
                         <img src="./images/aboutUs/international2.png" alt="" />
+                        <h5>HOOP US</h5>
                     </div>
                     <div className="international">
                         <img src="./images/aboutUs/international3.png" alt="" />
+                        <h5>HOOP US</h5>
                     </div>
                     <div className="international">
                         <img src="./images/aboutUs/international4.png" alt="" />
+                        <h5>HOOP US</h5>
                     </div>
                     <div className="international">
                         <img src="./images/aboutUs/international5.png" alt="" />
+                        <h5>HOOP US</h5>
                     </div>
                     <div className="international">
                         <img src="./images/aboutUs/international6.png" alt="" />
+                        <h5>HOOP US</h5>
                     </div>
+                    <p>If you want  to join the international HOOP team, please write us at info@hoop.ngo</p>
 
                 </div>
             </section>

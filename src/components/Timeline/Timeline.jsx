@@ -115,6 +115,10 @@ const Timeline = () => {
     </div>
     <div className='lineTimeline'>
 <img src="./images/ourWork/line.png" alt="" />
+
+    </div>
+    <div className="lineVertical">
+    <img src="./images/ourWork/lineVertical.png" alt="" />
     </div>
     <div className='bottomTimeline'>
     <div class="parent">

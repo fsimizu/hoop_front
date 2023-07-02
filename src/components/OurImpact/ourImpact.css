@@ -1,4 +1,4 @@
-.ourImpact__container {
+/* .ourImpact__container {
     margin-bottom: 50px;
 }
 .ourImpact__cards {
@@ -26,18 +26,7 @@
 
 .ourImpact__card-content img {
     height: 110px;
-}
-
-.ourImpact__card-content h2 {
-    font-size: 32px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: rgba(60, 115, 185, 1);
-    }
-
+} 
 
 .ourImpact__readMore {
     font-size: 24px;
@@ -49,4 +38,21 @@
     background: linear-gradient(180deg, #2864B0 49.02%, #0C4081 100%);
 
     
+} */
+
+.ourImpact__card-content h2 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(60, 115, 185, 1);
+    }
+
+.hoopReportsImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }

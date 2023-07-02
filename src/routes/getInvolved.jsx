@@ -10,7 +10,7 @@ export function GetInvolved() {
     <div>
       <Navbar />
       <SocialMedia />
-      <HeroCommon background={"/images/getInvolved_hero.png"} title="Get involved" />
+      <HeroCommon background={"/images/heroGetInvolved.png"} title="Get involved" />
       <Donate />
       <Footer />
     </div>

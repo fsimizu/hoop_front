@@ -9,26 +9,26 @@ export function OurProjects() {
 
             <div className="ourProjects__cards justify-content-center section__top-margin">
                 <div className="card">
-                    <a href="https://www.instagram.com/floracircular/">
+                    <a target="_blank" href="https://www.instagram.com/floracircular/">
                         <div className="ourProjects__card-content background-gray overflow-hidden ">
                             <img src="/images/ourProjects_flora.png" alt="" />
                         </div>
                     </a>
-                    {/* <div>
-                        <a href="#" className="ourProjects__readMore btn btn-secondary">Read more</a>
-                    </div> */}
+                    <div>
+                        <a href="#" className="btn btn-secondary buttonProjects1">Read more</a>
+                    </div>
                 </div>
 
                 <div className="card">
-                    <a href="https://www.instagram.com/ruwana.aqp/">
+                    <a target="_blank" href="https://www.instagram.com/ruwana.aqp/">
                         <div className="ourProjects__card-content background-gray overflow-hidden ">
                             <img src="/images/ourProjects_ruwana.png" alt="" />
 
                         </div>
                     </a>
-                    {/* <div>
-                        <a href="#" className="ourProjects__readMore btn btn-secondary">Read more</a>
-                    </div> */}
+                    <div>
+                        <a href="#" className="btn buttonProjects">Buy Now</a>
+                    </div>
                 </div>
             </div>
 
