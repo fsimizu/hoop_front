@@ -10,6 +10,7 @@ import { Education } from './routes/education.jsx';
 import { Community } from './routes/community.jsx';
 import { Family } from './routes/family.jsx';
 import { GetInvolved } from './routes/getInvolved.jsx';
+import { FAQ } from './routes/faq.jsx';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/get-involved",
     element: <GetInvolved />
+  },
+  {
+    path: "/faq",
+    element: <FAQ />
   }
 ])
 

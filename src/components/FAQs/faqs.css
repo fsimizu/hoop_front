@@ -1,0 +1,14 @@
+.faqs__container {
+    line-height: 34px;
+}
+
+.faqs__container h3 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 30px;
+}
+.faqs__container a {
+    text-decoration: none;
+    color: inherit;
+}
