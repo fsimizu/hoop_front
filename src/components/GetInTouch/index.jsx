@@ -4,6 +4,7 @@ import './getInTouch.css';
 export const GetInTouch = () => {
   return (
     <div className='getInTouch'>
+      <a id="getInTouch"></a>
       <div className='container'>
         <div className='getInTouch__circle-background'></div>
         <div className='row contentGetInTouch'>

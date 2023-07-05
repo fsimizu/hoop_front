@@ -10,7 +10,7 @@
 }
 .ourWork__icons{
     position: absolute;
-    z-index: 50;
+    z-index: 1;
     left: 100px;
     top: -90px
 }
