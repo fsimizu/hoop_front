@@ -4,15 +4,19 @@
     font-weight: bold;
     font-family: Roboto, sans-serif;
 }
-
 #sponsors{
 margin-top: 60px !important;
+width: 100%;
 }
 
 .slider {
-    width: 100% !important;
+width: 210px !important;
     margin-top: 50px;
 
+}
+
+.slider img{
+    width: 100%;
 }
 .buttonPartners{
     display: flex;

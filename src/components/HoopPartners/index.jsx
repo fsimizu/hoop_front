@@ -30,7 +30,6 @@ export function Partners() {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     centerMode: true,
-                    centerPadding: "30px",
 
                 }
             }
@@ -40,8 +39,9 @@ export function Partners() {
    
     return (
 <section id='sponsors'>
-<div className='container sponsors'>
-    <h2> Become a sponsor</h2>
+<div className='container'>
+    <div className="sponsors">
+          <h2> Become a sponsor</h2>
     <img className="section__underline" src="/images/underline.svg" alt="" />
     <Slider {...settings} >
         <div className='slider'>
@@ -97,7 +97,7 @@ export function Partners() {
 <div className="buttonPartners">
      <button className="becameApartner">Became a HOOP partner</button>
 </div>
-   
+    </div>
 </div>
 </section>
 )}
