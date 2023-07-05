@@ -15,6 +15,8 @@ export function Partners() {
         initialSlide: 0,
         autoplay: true,
         autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
 
         responsive: [
             {
