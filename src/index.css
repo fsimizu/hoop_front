@@ -11,10 +11,13 @@ body {
     color: #E61A6B;
 }
 .text-grey{
-    color: rgba(28, 56, 85, 0.8);
+    color: rgba(28, 56, 85, 0.8) !important;
 }
 .text-white {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1) !important;
+}
+.text-yellow {
+    color: rgba(250, 186, 22, 1) !important;
 }
 
 .text-main {
