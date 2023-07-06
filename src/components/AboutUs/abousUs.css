@@ -8,10 +8,7 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-.aboutUs__text-container {
-    text-align: left;
-    padding: 50px 100px;
-}
+
 .aboutUs__text-container h2 {
     text-align: left;
 }
@@ -26,7 +23,7 @@
 
 .aboutUs__text {
     font-size: 22px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .aboutUs__text p{
