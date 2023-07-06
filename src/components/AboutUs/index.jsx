@@ -5,7 +5,7 @@ export function AboutUs() {
     return (
         <div className="aboutUs__container section__top-margin">
             <div className="row ">
-                <div className="col-12 col-lg-6 aboutUs__text-container">
+                <div className="col-12 col-lg-6 text-main-container">
                     <h2 className="section__header">About us</h2>
                     <img className="section__underline" src="/images/underline.svg" alt="" />
                     <div className="aboutUs__text text-grey">

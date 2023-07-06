@@ -12,6 +12,7 @@ export function Navbar() {
         document.getElementById("myNav").style.height = "100%";
     };
 
+
     return (
         <div className="navbar__container bg-body-tertiary">
 
@@ -33,7 +34,7 @@ export function Navbar() {
                         <div className="icon__background background-lightblue"><a href="https://www.youtube.com/channel/UC6bUtxZ6YRKtqPNjhYqfQIA" role="button"><i className="fab fa-youtube fa-lg"></i></a></div>
                     </div>
                     <a href="/#getInTouch" onClick={handleCloseClick}>Contact us</a>
-
+  
                 </div>
 
             </div>

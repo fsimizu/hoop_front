@@ -33,6 +33,14 @@ body {
     margin: 40px 0px;
 }
 
+@media (max-width: 768px) {
+    .text-main-container {
+        padding: 10px 30px;
+        margin: 20px 0px;
+    }
+    
+}
+
 
 .section__top-margin {
     margin-top: 40px;
@@ -80,9 +88,6 @@ body {
 .background-darkblue {
     background: rgba(28, 56, 85, 1);
 }
-
-
-
 
 .text-right {
     text-align: right;
