@@ -28,17 +28,10 @@ body {
     letter-spacing: 0em;
     text-align: center;    
 }
+
 .text-main-container {
     padding: 25px 130px;
     margin: 40px 0px;
-}
-
-@media (max-width: 768px) {
-    .text-main-container {
-        padding: 10px 30px;
-        margin: 20px 0px;
-    }
-    
 }
 
 
@@ -91,4 +84,34 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+@media (max-width: 768px) {
+    .text-main {
+        font-size: 20px;
+        line-height: 24px; 
+    }
+    .text-main-container {
+        padding: 10px 30px;
+        margin: 20px 0px;
+    }
+    .section__header {
+        font-size: 32px;
+    }
+    .section__top-margin {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .text-main {
+        font-size: 16px;
+        line-height: 18.75px; 
+    }
+    .section__header {
+        font-size: 22px;
+    }
+    .section__top-margin {
+        margin-top: 10px;
+    }
 }

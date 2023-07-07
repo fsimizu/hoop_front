@@ -43,7 +43,7 @@ export function Partners() {
 <section id='sponsors'>
 <div className='container'>
     <div className="sponsors">
-          <h2> Become a sponsor</h2>
+          <h2 className="section__header"> Become a sponsor</h2>
     <img className="section__underline" src="/images/underline.svg" alt="" />
     <Slider {...settings} >
         <div className='slider'>

@@ -9,10 +9,6 @@
     margin-right: 0px;
 }
 
-.aboutUs__text-container h2 {
-    text-align: left;
-}
-
 .aboutUs__text-container img{
     margin-left: 0px;
 }
@@ -22,8 +18,7 @@
 }
 
 .aboutUs__text {
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 .aboutUs__text p{
@@ -38,4 +33,5 @@
     .aboutUs__container {
         background-image: none;
     }
+
 }
