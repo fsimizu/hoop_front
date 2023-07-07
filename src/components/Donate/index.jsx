@@ -22,7 +22,7 @@ export function Donate() {
                             </div>
                             <div className="card-body background-pink">
                                 <h5 className="card-title">Donate</h5>
-                                <p className="card-text">You can help fund education and health for the  people of Flora Tristán by donating to HOOP</p>
+                                <p className="text-main card-text">You can help fund education and health for the  people of Flora Tristán by donating to HOOP</p>
 
                             </div>
                         </div>
@@ -38,7 +38,7 @@ export function Donate() {
                             </div>
                             <div className="card-body background-lightblue">
                                 <h5 className="card-title">Become a partner</h5>
-                                <p className="card-text">Advocate for the future of mothers and children of Flora Tristán by partnering with HOOP to ensure a promising future.</p>
+                                <p className="text-main card-text">Advocate for the future of mothers and children of Flora Tristán by partnering with HOOP to ensure a promising future.</p>
                             </div>
                         </div>
                         <div>
@@ -53,7 +53,7 @@ export function Donate() {
                             </div>
                             <div className="card-body background-lightyellow">
                                 <h5 className="card-title">Become a volunteer</h5>
-                                <p className="card-text">We could use an extra set of hands to help mothers and children of Flora Tristán. You can better the course of their lives by sharing your time and knowledge through one or more of HOOP’s iniciatives.</p>
+                                <p className="text-main card-text">We could use an extra set of hands to help mothers and children of Flora Tristán. You can better the course of their lives by sharing your time and knowledge through one or more of HOOP’s iniciatives.</p>
                             </div>
                         </div>
                         <div>
@@ -64,7 +64,7 @@ export function Donate() {
             </div>
 
             <div className="donate__contact text-white section__top-margin">
-                <p>If you are unsure about what action to take or want more information, we would love to help you! Just send an e-mail to director@hoop.ngo or visit our FAQs</p>
+                <p className="text-main"><strong>If you are unsure about what action to take or want more information, we would love to help you! Just send an e-mail to director@hoop.ngo or visit our FAQs</strong></p>
             </div>
 
         </div>

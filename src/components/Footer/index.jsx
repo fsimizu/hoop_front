@@ -3,7 +3,7 @@ import './footer.css';
 
 export function Footer() {
     return (
-        <div className="footer__container text-left">
+        <div className="footer__container text-left text-main text-white background-darkblue">
             <div className="container footer__column-container">
                 <div className="row">
                     <div className="col-12 col-lg-4">
@@ -12,10 +12,10 @@ export function Footer() {
                         <p>info@hoop.ngo</p>
                         <p>Follow us</p>
 
-                        <div className="icon__background background-lightblue"><a href="https://www.facebook.com/HOOPPeru/" role="button"><i className="fab fa-facebook-f fa-xl text-blue"></i></a></div>
-                        <div className="icon__background background-lightblue"><a href="https://twitter.com/hoopperu?lang=en" role="button"><i className="fab fa-twitter fa-xl"></i></a></div>
-                        <div className="icon__background background-lightblue"><a href="https://www.instagram.com/hoopperu/?hl=en" role="button"><i className="fab fa-instagram fa-xl"></i></a></div>
-                        <div className="icon__background background-lightblue"><a href="https://www.youtube.com/channel/UC6bUtxZ6YRKtqPNjhYqfQIA" role="button"><i className="fab fa-youtube fa-xl"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://www.facebook.com/HOOPPeru/" role="button"><i className="fab fa-facebook-f fa-lg text-blue"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://twitter.com/hoopperu?lang=en" role="button"><i className="fab fa-twitter fa-lg"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://www.instagram.com/hoopperu/?hl=en" role="button"><i className="fab fa-instagram fa-lg"></i></a></div>
+                        <div className="icon__background background-lightblue"><a href="https://www.youtube.com/channel/UC6bUtxZ6YRKtqPNjhYqfQIA" role="button"><i className="fab fa-youtube fa-lg"></i></a></div>
                         
                     </div>
                     <div className="col-12 col-lg-4">
