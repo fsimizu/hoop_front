@@ -62,6 +62,7 @@ export function Navbar() {
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our work</a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
+                                <li><a className="dropdown-item" href="./our-work"><img className="navbar__icon" src="images/navbar_icon-education.png" alt="Education" /><p>Our Programs</p></a></li>
                                     <li><a className="dropdown-item" href="./education"><img className="navbar__icon" src="images/navbar_icon-education.png" alt="Education" /><p>Education</p></a></li>
                                     <li><a className="dropdown-item" href="./family"><img className="navbar__icon" src="images/navbar_icon-family.png" alt="Family" /><p>Family</p></a></li>
                                     <li><a className="dropdown-item" href="./community"><img className="navbar__icon" src="images/navbar_icon-community.png" alt="Community" /><p>Community</p></a></li>

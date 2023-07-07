@@ -2,7 +2,7 @@
   background-image: url("/public/images/ourWork/timeline.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #timeline h2{
@@ -103,61 +103,27 @@ justify-content: center;
   display: none;
 }
 
+.timelineMobile{
 
+  display: none;
+}
 @media screen and (max-width: 1000px) {
-#timeline {
-    background-size: contain;
-    height: auto;
-
-  }
-
+#timeline{
+  background-image: none;
+}
   .timeline{
-    display: flex;
+    display:none;
   }
 
-  .lineTimeline{
-    display: none;
-  }
-  
-  .lineVertical{
+  .timelineMobile{
     display: inherit;
   }
 
-  .topTimeline,
-  .bottomTimeline {
-    flex-wrap: wrap;
-
+  .imgTimelineMobile{
+    display: flex;
+    justify-content: center;
   }
 
-  .parent {
-    margin-left: 0;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 260px;
-  }
-
-  .child,
-  .child2 {
-    top: 20%;
-    transform: translate(-50%, -50%);
-  }
-
-  .child2{
-    top: 0;
-  }
-
-
-  .pLine,
-  .pLine2 {
-    bottom: auto;
-    top: 120%;
-    transform: translateY(-50%);
-    width: 100%;
-  }
-
-
-  
-  
 
 }
 
