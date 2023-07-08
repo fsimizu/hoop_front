@@ -7,7 +7,7 @@ export function OurVision() {
             <a id="our-vision"></a>
             <div className="row">
                 <div className="ourVision__image-container col-12 col-lg-6 section__top-margin">
-                    <img id="ourVision__image" src="/images/ourvision.jpg" alt="image" />
+                    <img id="ourVision__image" src="/images/ourvision.png" alt="image" />
                 </div>
 
                 <div className="col-12 col-lg-6 section__top-margin ourVision__item-container">

@@ -19,11 +19,11 @@ export function OurResults({title}) {
                             <div className="carousel-inner text-white">
                                 <div className="carousel-item active" id="carousel-item-1">
                                     <div className="carousel-item-text background-blue">
-                                        <div className="carousel-item-header">Life stories</div>
+                                        <div className="section__header carousel-item-header">Life stories</div>
                                         <div><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
                                         <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony Rodrigo:</div>
-                                        <p>I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
+                                        <p className="text-main">I like HOOP, because I like English and I love being with the teachers. It’s very important to learn English, and HOOP also offers lots of activities for all ages!</p>
                                     </div>
                                 </div>
 
@@ -85,7 +85,7 @@ export function OurResults({title}) {
                     
 
                     <div className="col-12 col-lg-6 section__top-margin">
-                        <div className="ourResults__item-container text-grey" >
+                        <div className="ourResults__item-container text-main text-grey" >
                             <div className="ourResults__icon">
                                 <img src="/images/results_icon1.svg" alt="" />
                             </div>
@@ -93,7 +93,7 @@ export function OurResults({title}) {
                                 <p><strong>50</strong> Volunteers & <strong>8</strong> staff members</p>
                             </div>
                         </div>
-                        <div className="ourResults__item-container" >
+                        <div className="ourResults__item-container text-main text-grey" >
                             <div className="ourResults__icon">
                                 <img src="/images/results_icon2.svg" alt="" />
                             </div>
@@ -101,7 +101,7 @@ export function OurResults({title}) {
                                 <p><strong>140</strong> Students</p>
                             </div>
                         </div>
-                        <div className="ourResults__item-container" >
+                        <div className="ourResults__item-container text-main text-grey" >
                             <div className="ourResults__icon">
                                 <img src="/images/results_icon3.svg" alt="" />
                             </div>
@@ -109,7 +109,7 @@ export function OurResults({title}) {
                                 <p><strong>230</strong> Families supported</p>
                             </div>
                         </div>
-                        <div className="ourResults__item-container" >
+                        <div className="ourResults__item-container text-main text-grey" >
                             <div className="ourResults__icon">
                                 <img src="/images/results_icon4.svg" alt="" />
                             </div>
