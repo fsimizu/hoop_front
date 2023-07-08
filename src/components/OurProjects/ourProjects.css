@@ -48,3 +48,26 @@ margin-bottom: 50px;
     background: #FFF;
     color: #3C73B9;
 }
+
+
+@media (max-width: 768px) {
+    .ourProjects__card-content img {
+        width: 280px;
+    }
+    .ourProjects__card-content {
+        width: 330px;
+        height: 330px;
+    }
+    .ourProjects__container {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .ourProjects__card-content img {
+        width: 160px;
+    }
+    .ourProjects__card-content {
+        width: 220px;
+        height: 220px;
+    }
+}
