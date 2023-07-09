@@ -35,9 +35,9 @@ const ContentVolunteer = () => {
     return (
         <section >
 <div className='container volunteer'>
-    <h2>Volunteer</h2>
+    <h2 className='section__header'>Volunteer</h2>
     <ul>
-        <li>
+        <li >
         <strong>English Teacher:</strong> As a Lead English teacher, you will be in charge of teaching a class of 15 to 20 students, aged between 3yo & 16yo depending on the class and your preference, from Tuesday to Friday, from 3:30pm to 5:30pm. You will have to plan your lesson using all the resources available at HOOP and the the Education coordinator will be supporting you.
         </li>
         <li>

@@ -34,7 +34,7 @@ const Timeline = () => {
     
       return (
 <section id='timeline' >
-  <h2>
+  <h2 className='section__header'>
   Our History
   </h2>
   <h3>

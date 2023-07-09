@@ -91,7 +91,7 @@ export function OurResults({title}) {
                                 <img src="/images/results_icon1.svg" alt="" />
                             </div>
                             <div className="ourResults__text">
-                                <p><strong>50</strong> Volunteers & <strong>8</strong> staff members</p>
+                                <p className="text-main"><strong>50</strong> Volunteers & <strong>8</strong> staff members</p>
                             </div>
                         </div>
                         <div className="ourResults__item-container text-main text-grey" >
@@ -99,7 +99,7 @@ export function OurResults({title}) {
                                 <img src="/images/results_icon2.svg" alt="" />
                             </div>
                             <div className="ourResults__text">
-                                <p><strong>140</strong> Students</p>
+                                <p className="text-main"><strong>140</strong> Students</p>
                             </div>
                         </div>
                         <div className="ourResults__item-container text-main text-grey" >
@@ -107,7 +107,7 @@ export function OurResults({title}) {
                                 <img src="/images/results_icon3.svg" alt="" />
                             </div>
                             <div className="ourResults__text">
-                                <p><strong>230</strong> Families supported</p>
+                                <p className="text-main"><strong>230</strong> Families supported</p>
                             </div>
                         </div>
                         <div className="ourResults__item-container text-main text-grey" >
@@ -115,7 +115,7 @@ export function OurResults({title}) {
                                 <img src="/images/results_icon4.svg" alt="" />
                             </div>
                             <div className="ourResults__text">
-                                <p><strong>5</strong> International offices around the world <br /><em>(US, Germany, France, Austria, UK)</em></p>
+                                <p className="text-main"><strong>5</strong> International offices around the world <br /><em>(US, Germany, France, Austria, UK)</em></p>
                             </div>
                         </div>
                 

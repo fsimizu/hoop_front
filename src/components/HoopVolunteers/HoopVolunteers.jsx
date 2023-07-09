@@ -21,6 +21,8 @@ const HoopVolunteers = () => {
         initialSlide: 0,
         autoplay: true,
         autoplaySpeed: 2000,
+        dots: false,
+        arrows: false,
 
         responsive: [
             {
@@ -49,7 +51,7 @@ const HoopVolunteers = () => {
         <>
             <section id='Volunteers'>
                 <div className='container volunteers'>
-                    <h2>Hoop Volunteers</h2>
+                    <h2 className='section__header'>Hoop Volunteers</h2>
                     <img className="section__underline" src="/images/underline.svg" alt="" />
                     <Slider {...settings} >
                         <div className='slider'>

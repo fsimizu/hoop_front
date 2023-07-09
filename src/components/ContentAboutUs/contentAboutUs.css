@@ -40,9 +40,6 @@
     align-items: center;
 }
 
-.our h2 {
-    text-align: center;
-}
 
 .our h3 {
     text-align: center;
@@ -58,11 +55,6 @@
 
 
 /* Values */
-.values h2 {
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
 .values h3 {
     text-align: center;
     margin: 0;

@@ -11,10 +11,10 @@ const ContentAboutUs = () => {
                         <div className="icon-title">
                             <img className="icon1" src="/images/vision_icon1.svg" alt="" />
                             <div className="title">
-                                <h2>Our mision</h2>
+                                <h2 className='section__header'>Our mision</h2>
                             </div>
                         </div>
-                        <div className="pAbout">
+                        <div className="text-main">
                             <p> <strong>To  promote the comprehensive development of individuals and their families through education.</strong>
                                 We understand education as the promotion of knowledge through workshops, the development of skills and academic complementarity to improve people’s abilities.</p>
                         </div>
@@ -23,7 +23,7 @@ const ContentAboutUs = () => {
                         <div className="icon-title">
                             <img src="/images/vision_icon2.svg" alt="" />
                             <div className="title">
-                                <h2>Our vision</h2>
+                                <h2 className='section__header'>Our vision</h2>
                             </div>
                         </div>
                         <div className="pAbout">
@@ -37,7 +37,7 @@ const ContentAboutUs = () => {
                 </div>
 
                 <div className="row values">
-                    <h2>Our values</h2>
+                    <h2 className='section__header'>Our values</h2>
                     <div className="col-12 col-md-4">
                         <h3>Collaboration</h3>
                         <p>We constantly work towards building a cooperative environment where respect, tolerance and kindness prevail.</p>

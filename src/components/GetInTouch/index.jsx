@@ -19,9 +19,8 @@ export const GetInTouch = () => {
               <div>
                 <select id="select" name="select" required>
                   <option value="options">How did you find us?</option>
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
+                  <option value="option1">Volunteer</option>
+                  <option value="option2">Partner</option>
                 </select>
               </div>
 

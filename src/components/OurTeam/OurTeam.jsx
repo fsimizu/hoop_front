@@ -5,7 +5,7 @@ const OurTeam = () => {
   return (
     <>
  <section id='team'>            
-            <h2>The Hoopteam</h2>
+            <h2 className='section__header'>The Hoopteam</h2>
                 <div className="team">
                     <div className="member">
                         <img src="./images/aboutUs/member1.png" alt="" />
@@ -53,7 +53,7 @@ const OurTeam = () => {
             </section>
 
             <section id='international'>
-                <h2>Our international team</h2>
+                <h2 className='section__header'>Our international team</h2>
                 <div className='container teamInter'>
                     <div className="international">
                         <img src="./images/aboutUs/international1.png" alt="" />
@@ -79,7 +79,7 @@ const OurTeam = () => {
                         <img src="./images/aboutUs/international6.png" alt="" />
                         <h5>HOOP US</h5>
                     </div>
-                    <p>If you want  to join the international HOOP team, please write us at info@hoop.ngo</p>
+                    <p className="text-main">If you want  to join the international HOOP team, please write us at info@hoop.ngo</p>
 
                 </div>
             </section>

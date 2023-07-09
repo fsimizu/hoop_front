@@ -5,14 +5,6 @@
     flex-wrap: wrap;
 }
 
-#team h2, #international h2{
-    text-align: center;
-    margin-top: 90px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    font-family: Roboto, sans-serif;
-    font-size: 45px;
-}
 
 .member {
     margin: 10px;
@@ -61,11 +53,3 @@
     color: #1C3855;
 }
 
-#international p{
-color: rgba(28, 56, 85, 0.80);
-text-align: center;
-font-size: 24px;
-font-family: Roboto;
-font-weight: 500;
-margin-top: 30px;
-}

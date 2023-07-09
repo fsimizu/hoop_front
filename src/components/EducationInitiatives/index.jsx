@@ -11,7 +11,7 @@ export function EducationInitiatives() {
             <div className="educationInitiatives__cards justify-content-center">
                 <div className="card">
                     <div className="educationInitiatives__card-content overflow-hidden" id="educationInitiatives_card1">
-                        <h2>Primary & Secondary education for adults</h2>
+                        <h2 className='section__header'>Primary & Secondary education for adults</h2>
                         <div className="educationInitiatives__border">
                             <p>We value education and <strong>encourage the mothers in their community</strong> to pursue the completion of their education alongside CEBA Micaela Bastidas to ensure <strong>better working opportunities.</strong></p>
                         </div>
