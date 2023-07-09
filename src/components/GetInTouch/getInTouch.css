@@ -59,7 +59,9 @@
 .getInTouch__form select {
     padding: 10px;
 }
-
+.hiden{
+    display: none;
+}
 @media (max-width: 1024px) {
     .getInTouch__map {
         min-height: 570px;

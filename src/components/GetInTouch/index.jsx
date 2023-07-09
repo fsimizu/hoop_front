@@ -12,7 +12,7 @@ export const GetInTouch = () => {
             <h2 className="section__header">Get in <span className='text-pink'>touch</span></h2>
             <p className="text-grey">Get in touch with HOop and be a part of our mission to empower communities in the northern cone of Arequipa. Share your name and email to join us in making a positive impact together.</p>
 
-            <form>
+            <form action="https://formsubmit.co/info@hoop.ngo" method="POST" >
               <div><input type="text" id="nombre" placeholder="Name" name="name" required /></div>
               <div><input type="email" id="email" placeholder="Email*" name="email" required /></div>
               <div><input type="tel" id="telefono" placeholder="Phone number*" name="tel" required /></div>
@@ -24,7 +24,12 @@ export const GetInTouch = () => {
                   <option value="option3">Option 3</option>
                 </select>
               </div>
+
+              <input className="hiden" type="hiden" name="_next" defaultValue="http://localhost:5174/" />
+              <input className="hiden" type="hiden" name="_captcha" defaultValue="false" />
+
               <button type="submit">Send</button>
+
             </form>
 
           </div>
@@ -34,7 +39,7 @@ export const GetInTouch = () => {
           </div>
 
         </div>
-        
+
       </div>
 
     </div>

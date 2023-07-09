@@ -9,6 +9,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { maxHeight } from '@mui/system';
 
+
 const HoopVolunteers = () => {
 
     var settings = {
@@ -26,6 +27,8 @@ const HoopVolunteers = () => {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerPadding: "60px",
 
                 }
             },
@@ -33,6 +36,8 @@ const HoopVolunteers = () => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: "60px",
 
                 }
             }
@@ -48,12 +53,10 @@ const HoopVolunteers = () => {
                     <img className="section__underline" src="/images/underline.svg" alt="" />
                     <Slider {...settings} >
                         <div className='slider'>
-                        <Card sx={{ maxWidth: 320, display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }}>
-                                <CardMedia className='cardMedia'
-                                    sx={{ width: 170, height: 160 }}
-                                    image="images/volunteer1.png"
-                                    title="Volunteer"
-                                />
+                        <Card sx={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }} className='cardVolunteers'>
+                        <div className='cardMedia'> 
+                                <img src="images/volunteer1.png" alt="" />
+                                </div>
                                 <CardContent>
                                     <Typography className='titleCard'>
                                         <h4>Christian Canizales</h4>
@@ -72,12 +75,10 @@ const HoopVolunteers = () => {
                             </Card>
                         </div>
                         <div className='slider'>
-                        <Card sx={{ maxWidth: 320, display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }}>
-                                <CardMedia className='cardMedia'
-                                    sx={{ width: 170, height: 160 }}
-                                    image="images/volunteer3.jpeg"
-                                    title="Volunteer"
-                                />
+                        <Card sx={{  display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }} className='cardVolunteers'>
+                        <div className='cardMedia'> 
+                                <img src="images/volunteer3.jpeg" alt="" />
+                                </div>
                                 <CardContent>
                                     <Typography className='titleCard'>
                                         <h4>Jimena Salas</h4>
@@ -96,12 +97,10 @@ const HoopVolunteers = () => {
                             </Card>
                         </div>
                         <div className='slider'>
-                            <Card sx={{ maxWidth: 320, display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }}>
-                                <CardMedia className='cardMedia'
-                                    sx={{ width: 170, height: 160 }}
-                                    image="images/volunteer3.png"
-                                    title="Volunteer"
-                                />
+                            <Card sx={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }} className='cardVolunteers'>
+                            <div className='cardMedia'> 
+                                <img src="images/volunteer3.png" alt="" />
+                                </div>
                                 <CardContent>
                                     <Typography className='titleCard'>
                                         <h4>Sadaura Jeudy</h4>
@@ -120,12 +119,10 @@ const HoopVolunteers = () => {
                             </Card>
                         </div>
                         <div className='slider'>
-                        <Card sx={{ maxWidth: 320, display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }}>
-                                <CardMedia className='cardMedia'
-                                    sx={{ width: 170, height: 160 }}
-                                    image="images/volunteer4.png"
-                                    title="Volunteer"
-                                />
+                        <Card sx={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", margin: "5px" }} className='cardVolunteers'>
+                                <div className='cardMedia'> 
+                                <img src="images/volunteer4.png" alt="" />
+                                </div>
                                 <CardContent>
                                     <Typography className='titleCard'>
                                         <h4>Noa Hakansson</h4>

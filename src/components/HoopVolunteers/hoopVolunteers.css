@@ -11,11 +11,27 @@
     font-family: Roboto, sans-serif;
 }
 
+.slider{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardVolunteers{
+    width: 330px;
+    height: 550px;
+}
 .cardMedia{
     display: flex;
     justify-content: center;
-    border-radius: 100%;
+
+    width: 200px !important;
 }
+.cardMedia img{
+    width: 180px !important;
+    border-radius: 50%;
+}
+
 
 .titleCard h4{
     font-family: Roboto, sans-serif;
@@ -38,5 +54,10 @@ width: 40px;
 margin-right: 10px;
 margin-top: 3px;
 background-color: #E61A6B;
+
+}
+
+@media (max-width: 700px){
+
 
 }
