@@ -28,6 +28,7 @@
 
 .donate__card-content .card-body{
     height: 400px;
+    padding: 50px;
 }
 
 .donate__contact {
@@ -60,15 +61,7 @@
 
 }
 
-.donate__cards .card-body {
-    padding: 50px;
-}
-
 .donate__cards .card-title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 41px;
-    letter-spacing: 0em;
     text-align: left;
 }
 .donate__cards .card-text {
@@ -84,17 +77,57 @@
 
 #card-image-1 {
     background-image: url('/images/donate_card1.png');
+    background-size: cover;
 }
 #card-image-2 {
     background-image: url('/images/donate_card2.png');
+    background-size: cover;
 }
 #card-image-3 {
     background-image: url('/images/donate_card3.png');
+    background-size: cover;
 }
 
 @media (max-width: 768px) {
     .card-image {
-        height: 400px;
+        height: 300px;
     }
+    .card-image h2 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .donate__card-content .card-body{
+        height: 280px;
+    }
+    .donate__card-content {
+        width: 350px;
+    }
+    .donate__card-content .card-body{
+        padding: 30px;
+    }
+    .donate__readMore {
+        font-size: 22px;
+    }
+    
+}
 
+@media (max-width: 425px) {
+    .card-image {
+        height: 300px;
+    }
+    .card-image h2 {
+        font-size: 50px;
+    }
+    .donate__card-content .card-body{
+        height: 200px;
+    }
+    .donate__card-content {
+        width: 300px;
+    }
+    .donate__card-content .card-body{
+        padding: 25px;
+    }
+    .donate__readMore {
+        font-size: 16px;
+    }
 }

@@ -39,9 +39,18 @@ body {
     margin-top: 40px;
 }
 .section__header {
+    font-family: 'Roboto', 'sans-serif';
     text-align: center;
     font-weight: 700 ;
     font-size: 45px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.section__subheader {
+    font-family: 'Roboto', 'sans-serif';
+    text-align: left;
+    font-weight: 700 ;
+    font-size: 32px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -98,18 +107,27 @@ body {
     .section__header {
         font-size: 32px;
     }
+    .section__subheader {
+        font-size: 28px;
+    }
     .section__top-margin {
         margin-top: 30px;
     }
 }
 
 @media (max-width: 425px) {
+    .text-main-container {
+        margin: 0
+    }
     .text-main {
         font-size: 16px;
         line-height: 18.75px; 
     }
     .section__header {
         font-size: 22px;
+    }
+    .section__subheader {
+        font-size: 20px;
     }
     .section__top-margin {
         margin-top: 10px;

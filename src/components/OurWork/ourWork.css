@@ -39,13 +39,23 @@
 
 }
 
-.ourWork__card-container .card-title{
-    font-weight: 700 ;
-    font-size: 32px;
-}
+
 .ourWork__card-container .card-text{  
-    font-weight: 400 ;
     font-size: 16px;
 }
 
+@media (max-width: 768px) {
+.ourWork__icons{
+    height: 100px;
+    left: 120px;
+    top: -70px
+}
+.ourWork__card-container {
+    margin-top: 60px;
+}
+.ourWork__card-container .card-body {  
+    padding: 20px;
+    height: 250px;
 
+}
+}
