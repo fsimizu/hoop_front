@@ -1,32 +1,9 @@
-
-.ourImpact{
-    margin-top: 60px;
-}
-.hoopReports{
-    margin-top: 60px;
-    margin-bottom: 60px;
+.hoopReportsImg{
     display: flex;
     justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-
-.hoopReportsImg{
-    width: 700px;
-}
-
 .hoopReportsImg img{
     width: 100%;
-}
-
-@media (max-width: 710px) {
-
-    .hoopReportsImg{
-        width: 500px;
-    }
-
-}
-
-@media (max-width: 500px) {
-.hoopReportsImg{
-    width: 320px;
-}
 }

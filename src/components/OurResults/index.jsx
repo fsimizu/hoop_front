@@ -17,6 +17,7 @@ export function OurResults({title}) {
                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
 
                             <div className="carousel-inner text-white">
+                                
                                 <div className="carousel-item active" id="carousel-item-1">
                                     <div className="carousel-item-text background-blue">
                                         <div className="section__header carousel-item-header">Life stories</div>
@@ -29,42 +30,42 @@ export function OurResults({title}) {
 
                                 <div className="carousel-item" id="carousel-item-2">
                                     <div className="carousel-item-text background-red">
-                                        <div className="carousel-item-header">Life stories</div>
+                                        <div className="section__header carousel-item-header">Life stories</div>
                                         <div><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
                                         <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony señora Ceferina:</div>
-                                        <p> I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team</p>
+                                        <p className="text-main"> I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team</p>
                                     </div>
                                 </div>
 
 
                                 <div className="carousel-item" id="carousel-item-3">
                                     <div className="carousel-item-text background-yellow">
-                                        <div className="carousel-item-header">Life stories</div>
-                                        <div className="carousel-item-stars"><i className="fa-sharp fa-solid fa-star fa-lg"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
+                                        <div className="section__header carousel-item-header">Life stories</div>
+                                        <div className="carousel-item-stars"><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
                                         <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony Señora Valentina:</div>
-                                        <p>I am learning, we’re trying new activities. I am part of the Ruwana team and it’s helping my family to get another source of income. We're grateful and super content to be part of such an experience.</p>
+                                        <p className="text-main">I am learning, we’re trying new activities. I am part of the Ruwana team and it’s helping my family to get another source of income. We're grateful and super content to be part of such an experience.</p>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item" id="carousel-item-4">
                                     <div className="carousel-item-text background-green">
-                                        <div className="carousel-item-header">Life stories</div>
+                                        <div className="section__header carousel-item-header">Life stories</div>
                                         <div><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
                                         <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony señora Maccimiana:</div>
-                                        <p>At HOOP, I have the opportunity to learn and write, that is something I never thought I would be able to do with having to take care of my babies.</p>
+                                        <p className="text-main">At HOOP, I have the opportunity to learn and write, that is something I never thought I would be able to do with having to take care of my babies.</p>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item" id="carousel-item-5">
                                     <div className="carousel-item-text background-purple">
-                                        <div className="carousel-item-header">Life stories</div>
+                                        <div className="section__header carousel-item-header">Life stories</div>
                                         <div><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
                                         <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony Yerson:</div>
-                                        <p>HOOP brings me education, teaches me English, helps getting to know new friends, brings new teachers to talk to, thanks to HOOP I know how to speak English.</p>
+                                        <p className="text-main">HOOP brings me education, teaches me English, helps getting to know new friends, brings new teachers to talk to, thanks to HOOP I know how to speak English.</p>
                                     </div>
                                 </div>
 

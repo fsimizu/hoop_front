@@ -53,4 +53,9 @@
 .ourWork__card-container {
     margin-top: 60px;
 }
+.ourWork__card-container .card-body {  
+    padding: 20px;
+    height: 250px;
+
+}
 }
