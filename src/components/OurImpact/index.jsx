@@ -47,11 +47,12 @@ export function OurImpact() {
 
         // </div>
 
-        <div >
+        <div className="container">
              <h2 className="section__header">Our impact</h2>
              <img className="section__underline" src="/images/underline.svg" alt="" />
+             <p className="text-main">Learn how these projects have impacted the community by reading these reports.</p>
              <div className="hoopReportsImg"> 
-             <a href="#"> <img src="./images/hoopReports.png" alt="Hoop Reports" />    </a>
+                <a href="#"><img src="./images/hoopReports.png" alt="Hoop Reports" /></a>
              </div>
         </div>
 )}

@@ -1,5 +1,9 @@
+.footer__container {
+    z-index: 4;
+}
 .footer__column-container {
     padding: 50px;
+
 }
 #footer__image {
     height: 65px;

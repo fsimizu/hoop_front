@@ -13,10 +13,6 @@
 
 }
 
-.hero__we-are {
-    font-weight: 300;
-}
-
 .hero__yellow-text {
     color: #faba16
 }
@@ -29,11 +25,19 @@
 
 
 @media (max-width: 768px) {
-    .hero__container img, .hero__container .hero__we-are, .hero__container p {
-        display: none;
+    .hero__container img {
+        height: 50px;
     }
-    .hero__container .text-main {
-        position: relative;
-        top: 60px;
+    .hero__container h4 {
+        margin-bottom: 0px !important;
+    }
+    .hero__container p {
+        margin-bottom: 5px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero__container img {
+        height: 36px;
     }
 }

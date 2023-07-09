@@ -40,7 +40,7 @@
     
 } */
 
-.ourImpact__card-content h2 {
+/* .ourImpact__card-content h2 {
     font-size: 32px;
     font-style: italic;
     font-weight: 700;
@@ -48,11 +48,14 @@
     letter-spacing: 0em;
     text-align: center;
     color: rgba(60, 115, 185, 1);
-    }
+    } */
 
 .hoopReportsImg{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.hoopReportsImg img{
+    width: 100%;
 }
