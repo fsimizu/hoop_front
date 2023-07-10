@@ -28,6 +28,7 @@
 }
 .ourResults__text p {
     margin-bottom: 0px;
+    text-align: left;
 }
 
 .ourResults__container #carouselExampleIndicators {

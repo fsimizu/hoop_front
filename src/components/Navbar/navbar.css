@@ -40,13 +40,13 @@
 
 .dropdown-menu.show {
     display: flex;
-    left: -220%;
+    left: -180%;
     /* background-color: yellow; */
 }
 
 .navbar__icon {
-    height: 123px;
-    width: 123px;
+    height: 100px;
+    width: 100px;
 }
 .navbar__icon:hover {
     filter: invert(38%) sepia(82%) saturate(434%) hue-rotate(173deg) brightness(93%) contrast(89%);
