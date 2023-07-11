@@ -27,3 +27,10 @@
 .social-media__container .icon__background:hover {
     background-color: #E61A6B;
 }
+
+
+@media (max-width: 425px) {
+    .social-media__container {
+        display: none;
+    }
+  }

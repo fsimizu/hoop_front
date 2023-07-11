@@ -64,7 +64,7 @@ export function Navbar() {
                                 <ul className="dropdown-menu">
                                     <li>
                                         <Link to="/about-us">
-                                            <a className="dropdown-item"><img className="navbar__icon" src="images/navbar_icon-history.png" alt="Our story" /><p>Our History</p></a>
+                                            <a className="dropdown-item"><img className="navbar__icon" src="images/navbar_icon-history.svg" alt="Our story" /><p>Our History</p></a>
                                         </Link>
                                     </li>
                                     <li>

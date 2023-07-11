@@ -58,13 +58,15 @@
     /* background-color: yellow; */
 }
 
-.navbar__icon {
+.navbar__icon, .navbar__icon-hover  {
     height: 100px;
     width: 100px;
 }
-.navbar__icon:hover {
+.navbar__icon:hover{
     filter: invert(38%) sepia(82%) saturate(434%) hue-rotate(173deg) brightness(93%) contrast(89%);
+    /* fill: red; */
 }
+
 
 @media (max-width: 575px) {
     .navbar__container .container {
