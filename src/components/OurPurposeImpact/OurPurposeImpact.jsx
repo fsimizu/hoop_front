@@ -5,6 +5,7 @@ const OurPurposeImpact = () => {
   return (
     <>
       <section id='ourPurpose' className="row purpose">
+  
         <div className="col-12 col-md-6 contPurpose">
           <h2 className='section__header'>Our purpose</h2>
           <p className="text-main">From 2012 up until now, HOOP has supported more than 230 families. 120 students are receiving english and/or coding classes, the average attendance to the classes is 80%.</p>

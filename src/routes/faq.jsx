@@ -1,20 +1,17 @@
 import React from "react";
-import { Footer } from "../components/Footer";
-import { HeroCommon } from "../components/HeroCommon";
-import { Navbar } from "../components/Navbar";
-import { SocialMedia } from "../components/SocialMedia";
-import { GetInvolvedBtn } from "../components/GetInvolvedBtn";
 import { FAQs } from "../components/FAQs";
+import { GetInvolvedBtn } from "../components/GetInvolvedBtn";
+import { HeroCommon } from "../components/HeroCommon";
+import { Layout } from "../layout/Layout.jsx";
 
 export function FAQ() {
   return (
       <div>
-          <Navbar />
-          <SocialMedia />
-          <GetInvolvedBtn />
-          <HeroCommon background={"/images/faq.jpg"} title="FAQs" />
-          <FAQs />
-          <Footer />
+          <Layout>
+            <GetInvolvedBtn />
+            <HeroCommon background={"/images/faq.jpg"} title="FAQs" />
+            <FAQs />
+          </Layout>
       </div>
   );
 }

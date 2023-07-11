@@ -1,18 +1,15 @@
 import React from "react";
-import { Footer } from "../components/Footer";
-import { Navbar } from "../components/Navbar";
-import { HeroCommon } from "../components/HeroCommon";
 import { Donate } from "../components/Donate";
-import { SocialMedia } from "../components/SocialMedia";
+import { HeroCommon } from "../components/HeroCommon";
+import { Layout } from "../layout/Layout.jsx";
 
 export function GetInvolved() {
   return (
     <div>
-      <Navbar />
-      <SocialMedia />
-      <HeroCommon background={"/images/heroGetInvolved.png"} title="Get involved" />
-      <Donate />
-      <Footer />
+      <Layout>
+        <HeroCommon background={"/images/heroGetInvolved.png"} title="Get involved" />
+        <Donate />
+      </Layout>
     </div>
   );
 }

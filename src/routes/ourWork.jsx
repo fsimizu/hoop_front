@@ -1,24 +1,24 @@
 import React from "react";
-import { Footer } from "../components/Footer";
-import { Navbar } from "../components/Navbar";
-import { HeroCommon } from "../components/HeroCommon";
 import GoalsHoop from "../components/GoalsHoop/GoalsHoop";
-import OurPrograms from "../components/OurPrograms/OurPrograms";
+import { HeroCommon } from "../components/HeroCommon";
 import { Partners } from "../components/HoopPartners";
+import OurPrograms from "../components/OurPrograms/OurPrograms";
 import Timeline from "../components/Timeline/Timeline";
+import { Layout } from "../layout/Layout.jsx";
 
 
 export function OurWork() {
 
   return (
     <div>
-      <Navbar />
-      <HeroCommon background={"/images/ourWork/heroOurWork.jpg"} title="Our work" />
-      <Timeline/>
-      <OurPrograms/>
-      <GoalsHoop />
-      <Partners/>
-      <Footer />
+      <Layout>
+        <GetInvolvedBtn />
+        <HeroCommon background={"/images/ourWork/heroOurWork.jpg"} title="Our work" />
+        <Timeline/>
+        <OurPrograms/>
+        <GoalsHoop />
+        <Partners/>
+      </Layout>
     </div>
   );
 }

@@ -1,6 +1,11 @@
 .navbar__container {
     background-color: white !important;
+   position: fixed;
+   z-index: 99;
+   width: 100%;
+   top: 0;
 }
+
 
 .navbar-collapse {
     flex-grow: 0;
@@ -9,6 +14,11 @@
 .navbar {
     font-family: 'Inter';
     font-size: 18px;
+     /* position: fixed; */
+}
+.navbar .dropdown a {
+  text-decoration: none;
+  color: inherit
 }
 
 .navbar-brand img {
@@ -32,6 +42,10 @@
     position: relative;
     top: 5px;
     padding: 10px 20px;
+}
+
+#getInvolvedNavbar:hover {
+  background: rgba(43, 180, 170, 1);
 }
 
 .navbar__container li {
@@ -84,7 +98,7 @@
   
   /* The navigation links inside the overlay */
   .overlay a, .overlay p {
-    padding: 8px;
+    padding: 4px;
     text-decoration: none;
     color: white;
     display: block; /* Display block instead of inline */

@@ -24,3 +24,6 @@
     width: 30px;
     border-radius: 50%;
 }
+.social-media__container .icon__background:hover {
+    background-color: #E61A6B;
+}

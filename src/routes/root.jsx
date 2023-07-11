@@ -1,33 +1,30 @@
 import React from "react";
 import { AboutUs } from "../components/AboutUs";
-import { Footer } from "../components/Footer";
+import { GetInTouch } from "../components/GetInTouch";
+import { GetInvolvedBtn } from "../components/GetInvolvedBtn";
 import { Hero } from "../components/Hero";
 import { Partners } from "../components/HoopPartners";
-import { Navbar } from "../components/Navbar";
+import { OurResults } from "../components/OurResults";
 import { OurVision } from "../components/OurVision";
 import { OurWork } from "../components/OurWork";
-import { SocialMedia } from "../components/SocialMedia";
-import { OurResults } from "../components/OurResults";
-import { GetInTouch } from "../components/GetInTouch";
-import { Volunteers } from "../components/Volunteers";
-import { GetInvolvedBtn } from "../components/GetInvolvedBtn";
+import { Layout } from "../layout/Layout.jsx";
 
 
 export function Root() {
 
   return (
     <div>
-      <Navbar />
-      <SocialMedia />
-      <GetInvolvedBtn />
-      <Hero />
-      <AboutUs />
-      <OurVision />
-      <OurWork />
-      <OurResults title={"Our Results"} />
-      <Partners />
-      <GetInTouch />
-      <Footer />
+      <Layout>
+        <GetInvolvedBtn />
+        <Hero />
+        <AboutUs />
+        <OurVision />
+        <OurWork />
+        <OurResults title={"Our Results"} />
+        <Partners />
+        <GetInTouch />
+      </Layout>
+
     </div>
   );
 }
