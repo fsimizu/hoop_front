@@ -1,4 +1,5 @@
 import React from "react";
+import { GetInvolvedBtn } from "../components/GetInvolvedBtn";
 import GoalsHoop from "../components/GoalsHoop/GoalsHoop";
 import { HeroCommon } from "../components/HeroCommon";
 import { Partners } from "../components/HoopPartners";
