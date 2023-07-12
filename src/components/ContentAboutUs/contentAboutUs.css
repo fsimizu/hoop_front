@@ -9,6 +9,8 @@
     margin-top: 15px;
 }
 
+
+
 .title {
     display: flex;
     height: 80px;
@@ -54,20 +56,25 @@
 }
 
 
-/* Values */
+/* Values */ellipse
+.values{
+    display: flex;
+    justify-content: flex-start;
+}
 .values h3 {
-    text-align: center;
-    margin: 0;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .values .col-12 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .values .col-12 p {
-    text-align: center;
+    text-align: left;
 }
 
 

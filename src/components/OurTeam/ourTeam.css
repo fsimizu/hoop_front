@@ -1,8 +1,10 @@
 /* Our team */
+
 .team {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 
@@ -29,27 +31,36 @@
 }
 
 /* INTERNATIONAL TEAM */
+#international{
+    margin-top: 60px;
+}
+
 .teamInter {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
 }
 
 
 .international {
-    margin: 12px 35px 12px 35px;
+    margin: 50px 28px 12px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 50px; */
 }
 
-.international img{
-    margin-left: 18px;
-}
 
 .international h5{
     margin-top: 8px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     color: #1C3855;
 }
 
+#international p{
+    margin-bottom: 40px;
+}

@@ -38,6 +38,10 @@
     border-bottom-left-radius: 50%;
 }
 
+.learnMore{
+    font-size: 24px;
+    font-weight: 600;
+}
 
 @media (max-width: 767px) {
     .program h3 {

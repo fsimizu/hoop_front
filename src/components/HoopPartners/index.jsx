@@ -8,9 +8,8 @@ export function Partners() {
 
     var settings = {
         dots: true,
-        infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 2,
         initialSlide: 0,
         autoplay: true,
@@ -22,16 +21,18 @@ export function Partners() {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
+                    centerMode: true,
+                    centerPadding: "60px",
+                    slidesToScroll: 1,
 
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
-                    centerMode: true,
 
                 }
             }
@@ -40,8 +41,8 @@ export function Partners() {
 
    
     return (
-<section id='sponsors'>
-<div className='container'>
+<section id='sponsors' >
+<div className='container section__top-margin4'>
     <div className="sponsors">
           <h2 className="section__header"> Become a sponsor</h2>
     <img className="section__underline" src="/images/underline.svg" alt="" />

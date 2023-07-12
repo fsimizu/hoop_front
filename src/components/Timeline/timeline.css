@@ -2,7 +2,11 @@
   background-image: url("/public/images/ourWork/timeline.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+#timeline h2{
+  padding-top: 30px;
 }
 
 

@@ -3,7 +3,7 @@ import './getInTouch.css';
 
 export const GetInTouch = () => {
   return (
-    <div className='getInTouch'>
+    <div className='getInTouch section__top-margin'>
       <a id="getInTouch"></a>
       <div className='container'>
         <div className='getInTouch__circle-background'></div>

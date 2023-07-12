@@ -11,7 +11,7 @@
 
 .imgImpact,
 .imgPurpose {
-    width: 500px;
+    width: 600px;
 }
 
 .imgImpact img,
@@ -19,18 +19,13 @@
     width: 100%;
 }
 
-
-.purpose p,
-.impact p {
-    font-size: 17px;
-    font-family: Roboto, sans-serif;
-    font-weight: normal;
-    margin-top: 15px;
-    margin: 10px;
-}
-
 .contImpact,
 .contPurpose {
     width: 500px;
     margin: 30px;
+}
+
+
+#ourPurpose h2, #ourImpact h2{
+    margin-bottom: 25px;
 }

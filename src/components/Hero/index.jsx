@@ -11,7 +11,6 @@ export function Hero() {
                             <img src="/images/hero_logo.png" alt="" />
                             <p className="mb-3">Helping Overcome Obstacles Peru</p>
                             <h4 className="mb-3 text-main text-right"><strong>An NGO working with communities in the <span className="hero__yellow-text">cono norte of Arequipa Peru.</span></strong></h4>
-                            {/* <a className="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a> */}
                         </div>
                 </div>
             </div>
