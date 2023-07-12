@@ -7,7 +7,7 @@ export function HeroCommon( {background, title} ) {
       };
 
     return (
-            <div className="heroCommon__container p-5 bg-image" style={containerStyle}>
+            <div id="heroCommon" className="heroCommon__container p-5 bg-image" style={containerStyle}>
                 <div className="container">
                     <div className="d-flex justify-content-center h-100">
                             <div className="col-12">

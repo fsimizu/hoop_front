@@ -3,7 +3,7 @@ import './hero.css';
 
 export function Hero() {
     return (
-        <div className="hero__container p-5 bg-image">
+        <div id="heroHome" className="hero__container p-5 bg-image">
             <div className="container">
                 <div className="d-flex justify-content-end h-100">
                         <div className="text-right text-white col-lg-4 col-md-8">

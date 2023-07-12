@@ -6,6 +6,9 @@
    top: 0;
 }
 
+.nav-item a {
+  text-decoration: none;
+}
 
 .navbar-collapse {
     flex-grow: 0;
@@ -44,7 +47,7 @@
     padding: 10px 20px;
 }
 
-#getInvolvedNavbar:hover {
+#nav_get-involved:hover {
   background: rgba(43, 180, 170, 1);
 }
 
@@ -54,7 +57,7 @@
 
 .dropdown-menu.show {
     display: flex;
-    left: -180%;
+    left: -200%;
     /* background-color: yellow; */
 }
 
@@ -66,7 +69,9 @@
     filter: invert(38%) sepia(82%) saturate(434%) hue-rotate(173deg) brightness(93%) contrast(89%);
     /* fill: red; */
 }
-
+.nav-item-active {
+  font-weight: 800;
+}
 
 @media (max-width: 575px) {
     .navbar__container .container {
