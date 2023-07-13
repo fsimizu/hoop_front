@@ -49,7 +49,7 @@ const HoopVolunteers = () => {
 
     return (
         <>
-            <section id='Volunteers section__top-margin'>
+            <section id='Volunteers' className='section__top-margin2'>
                 <div className='container volunteers'>
                     <a id="volunteers"></a>
                     <h2 className='section__header'>Hoop Volunteers</h2>
