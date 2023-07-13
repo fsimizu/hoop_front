@@ -14,9 +14,9 @@ export function OurProjects() {
                             <img src="/images/ourProjects_flora.png" alt="" />
                         </div>
                     </a>
-                    {/* <div>
-                        <a href="#" className="btn btn-secondary buttonProjects1">Read more</a>
-                    </div> */}
+                    <div>
+                        <a href="#" className="text-main btn btn-secondary buttonProjects1"><strong>Read more</strong></a>
+                    </div>
                 </div>
 
                 <div className="card">
@@ -25,9 +25,9 @@ export function OurProjects() {
                             <img src="/images/ourProjects_ruwana.png" alt="" />
                         </div>
                     </a>
-                    {/* <div>
-                        <a href="#" className="btn buttonProjects">Buy Now</a>
-                    </div> */}
+                    <div>
+                        <a href="#" className="text-main btn buttonProjects"><strong>Buy Now</strong></a>
+                    </div>
                 </div>
             </div>
 

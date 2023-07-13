@@ -9,6 +9,8 @@
     height: 65px;
     margin-bottom: 15px;
 }
+
+
 .footer__header {
     font-weight: 700;
     margin-bottom: 25px;
@@ -33,6 +35,15 @@
 @media (max-width: 991px) {
     .footer__logo {
         text-align: right;
+    }
+    #footer__image {
+        height: 55px;
+    }
+
+}
+@media (max-width: 425px) {
+    #footer__image {
+        height: 40px;
     }
 
 }
